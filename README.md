@@ -6,3 +6,7 @@ Issues labelled `auto` in this repository are picked up by the agent, implemente
 committed locally, and pushed once a day.
 
 This file will grow as the agent completes issues.
+
+## Scripts
+
+- `hello.py` – prints a hello message from eskonworks. Run with `python hello.py`.
