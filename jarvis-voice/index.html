@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="J.A.R.V.I.S. — a fictional voice-command AI assistant inspired by Iron Man.">
+  <title>J.A.R.V.I.S. — eskonworks</title>
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/mini.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="mini-app wide">
+    <a class="back-link" href="../index.html">← All projects</a>
+    <header class="app-head">
+      <h1>J.A.R.V.I.S.</h1>
+      <p>Just A Rather Very Intelligent System · a fictional voice-command demo</p>
+    </header>
+
+    <section class="panel core-panel">
+      <div class="core-wrap">
+        <div class="reactor" id="reactor" aria-hidden="true">
+          <span class="reactor-ring r1"></span>
+          <span class="reactor-ring r2"></span>
+          <span class="reactor-core">J</span>
+        </div>
+        <div class="core-status">
+          <span class="status-line"><span class="status-dot" id="statusDot"></span><strong id="statusText">Standby</strong></span>
+          <p id="statusHint" class="muted small">Press the microphone to begin.</p>
+        </div>
+      </div>
+
+      <div class="voice-controls">
+        <button type="button" id="micBtn" class="primary mic-btn">🎙️ Start listening</button>
+        <label class="toggle-label"><input type="checkbox" id="voiceToggle" checked> Voice replies</label>
+      </div>
+
+      <form id="textForm" class="text-form">
+        <input type="text" id="textCommand" placeholder="Or type a command…" autocomplete="off" aria-label="Type a command">
+        <button type="submit" class="primary">Send</button>
+      </form>
+      <p class="note muted small" id="supportNote"></p>
+    </section>
+
+    <section class="panel log-panel">
+      <div class="panel-head">
+        <h2>Conversation log</h2>
+        <button type="button" id="clearBtn" class="small-btn">Clear</button>
+      </div>
+      <div id="log" class="log" aria-live="polite">
+        <div class="log-line system">J.A.R.V.I.S. online. Say “help” for available commands.</div>
+      </div>
+    </section>
+
+    <section class="panel commands-panel">
+      <h2>Try a command</h2>
+      <div class="command-chips" id="commandChips"></div>
+      <p class="muted small">Fictional demo. Speech runs locally in your browser through the Web Speech API — no audio or text leaves this device.</p>
+    </section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Eye in the Sky — a fictional tactical radar and observation simulator.">
+  <title>Eye in the Sky — eskonworks</title>
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/mini.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="mini-app tactical">
+    <a class="back-link" href="../index.html">← All projects</a>
+    <header class="app-head">
+      <h1>Eye in the Sky</h1>
+      <p>Tactical observation simulator · a fictional interface inspired by spy and sci-fi films</p>
+    </header>
+
+    <p class="disclaimer">⚠️ Fictional simulation only. All contacts and telemetry are randomly generated — no real surveillance or live data.</p>
+
+    <div class="mission-grid">
+      <section class="panel radar-panel">
+        <div class="radar-head">
+          <h2>SECTOR 7 · RADAR SWEEP</h2>
+          <span class="live-tag"><span></span> SIM LIVE</span>
+        </div>
+        <div class="radar-wrap">
+          <canvas id="radar" width="620" height="620" aria-label="Simulated radar display"></canvas>
+          <div class="radar-hint muted small">Click the scope to place a contact</div>
+        </div>
+        <div class="radar-controls">
+          <button type="button" id="lockBtn" class="primary">Lock contact</button>
+          <button type="button" id="pauseBtn">Pause sweep</button>
+          <button type="button" id="resetBtn">Reset</button>
+        </div>
+      </section>
+
+      <aside class="side-stack">
+        <section class="panel">
+          <h2>Contacts <span id="contactCount" class="count">0</span></h2>
+          <div id="contactList" class="contact-list"></div>
+        </section>
+
+        <section class="panel">
+          <h2>Telemetry</h2>
+          <div id="telemetry" class="telemetry"></div>
+        </section>
+      </aside>
+    </div>
+
+    <section class="panel log-panel">
+      <div class="panel-head">
+        <h2>Mission log</h2>
+        <span class="muted small" id="clock"></span>
+      </div>
+      <div id="log" class="log" aria-live="polite"></div>
+    </section>
+  </main>
+</body>
+</html>
