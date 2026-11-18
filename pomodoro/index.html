@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pomodoro Timer — eskonworks</title>
+  <link rel="stylesheet" href="../assets/mini.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="mini-app">
+    <a class="back-link" href="../index.html">← All projects</a>
+    <header class="app-head">
+      <h1>Pomodoro Timer</h1>
+      <p>Focus in 25-minute blocks, then take a real break.</p>
+    </header>
+
+    <section class="panel timer-panel">
+      <div class="modes" role="group" aria-label="Timer mode">
+        <button type="button" class="mode active" data-mode="focus">Focus</button>
+        <button type="button" class="mode" data-mode="short">Short break</button>
+        <button type="button" class="mode" data-mode="long">Long break</button>
+      </div>
+
+      <div class="ring" id="ring" style="--progress: 0">
+        <div class="ring-inner">
+          <strong id="time">25:00</strong>
+          <span id="mode-label">Focus</span>
+        </div>
+      </div>
+
+      <p class="status muted" id="status" role="status">Press start to begin.</p>
+
+      <div class="controls">
+        <button type="button" class="primary" id="startBtn">Start</button>
+        <button type="button" id="resetBtn">Reset</button>
+        <button type="button" id="skipBtn">Skip</button>
+      </div>
+    </section>
+
+    <section class="stats">
+      <div><strong id="sessions">0</strong><span>Sessions today</span></div>
+      <div><strong id="minutes">0</strong><span>Focus minutes</span></div>
+      <div><strong id="cycle">0 / 4</strong><span>Until long break</span></div>
+    </section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Trending GitHub projects, refreshed daily by the eskonworks agent.">
+  <title>eskonworks — trending projects</title>
+  <link rel="stylesheet" href="assets/site.css">
+  <link rel="stylesheet" href="trending.css">
+  <script src="assets/site.js" defer></script>
+  <script src="trending.js" defer></script>
+</head>
+<body data-page="trending">
+  <div id="site-header"></div>
+
+  <main class="site-main">
+    <section class="hero">
+      <p class="eyebrow">Daily radar</p>
+      <h1>Trending projects</h1>
+      <p class="subtitle">
+        Recently created repositories that are already getting attention. Search by name,
+        filter by language, or sort by stars — all from a single static page.
+      </p>
+      <div class="meta-line" id="trending-meta">Loading ranking info…</div>
+    </section>
+
+    <section class="panel filters">
+      <div class="toolbar">
+        <input class="search" id="repo-search" type="search" placeholder="Search repositories or descriptions…" aria-label="Search repositories">
+        <select class="select" id="sort-select" aria-label="Sort repositories">
+          <option value="stars">Most stars</option>
+          <option value="name">Name A–Z</option>
+          <option value="language">Language A–Z</option>
+        </select>
+      </div>
+      <div class="language-filters" id="language-filters" aria-label="Filter by language"></div>
+    </section>
+
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">Results</p>
+        <h2>Repositories</h2>
+      </div>
+      <span class="result-count" id="repo-count"></span>
+    </div>
+
+    <div class="grid repo-grid" id="repo-grid"><p class="muted">Loading trending projects…</p></div>
+
+    <section class="panel topics-panel">
+      <h2>Popular topics</h2>
+      <div class="topics" id="topic-cloud"><p class="muted">Loading topics…</p></div>
+    </section>
+
+    <section class="panel note">
+      <h2>Where the data comes from</h2>
+      <p class="muted">
+        The scheduled workflow runs <code>scripts/update_site_data.py</code> with GitHub's
+        official Search API and commits <code>data/trending.json</code>. The ranking heuristic:
+        repositories created in the last <strong>7 days</strong> with at least
+        <strong>50 stars</strong>, excluding forks and archived repos.
+      </p>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+</body>
+</html>

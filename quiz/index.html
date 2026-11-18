@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Web Basics Quiz — eskonworks</title>
+  <link rel="stylesheet" href="../assets/mini.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="mini-app">
+    <a class="back-link" href="../index.html">← All projects</a>
+    <header class="app-head">
+      <h1>Web Basics Quiz</h1>
+      <p>Five quick questions on HTML, CSS and JavaScript.</p>
+    </header>
+
+    <section class="panel quiz-panel" id="quiz-panel">
+      <div class="quiz-top">
+        <span id="question-count">Question 1 of 5</span>
+        <span id="best-score">Best: —</span>
+      </div>
+      <div class="progress-track"><div class="progress-fill" id="quiz-progress"></div></div>
+
+      <h2 id="question">Loading question…</h2>
+      <div class="choices" id="choices"></div>
+      <div class="feedback" id="feedback" role="status" hidden></div>
+
+      <div class="quiz-actions">
+        <button type="button" class="primary" id="nextBtn" disabled>Next question →</button>
+      </div>
+    </section>
+
+    <section class="panel result-panel" id="result-panel" hidden>
+      <div class="result-score" id="result-score">0 / 5</div>
+      <h2 id="result-title">Nice try!</h2>
+      <p class="muted" id="result-detail"></p>
+      <button type="button" class="primary" id="restartBtn">Try again</button>
+    </section>
+  </main>
+</body>
+</html>

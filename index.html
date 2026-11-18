@@ -3,35 +3,134 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="eskonworks — static projects built by an autonomous agent.">
   <title>eskonworks — projects</title>
+  <link rel="stylesheet" href="assets/site.css">
   <link rel="stylesheet" href="styles.css">
+  <script src="assets/site.js" defer></script>
+  <script src="assets/hub.js" defer></script>
 </head>
-<body>
-  <main class="hub">
-    <p class="eyebrow">ESKONWORKS</p>
-    <h1>Small projects, built by an agent.</h1>
-    <p class="subtitle">Three static sites — HTML, CSS and JavaScript only.</p>
+<body data-page="home">
+  <div id="site-header"></div>
 
-    <div class="grid">
-      <a class="card" href="login-card/index.html">
-        <span class="icon">🔐</span>
-        <h2>Login Card</h2>
-        <p>A polished sign-in card with validation and a password toggle.</p>
-        <span class="arrow">Open →</span>
-      </a>
-      <a class="card" href="tic-tac-toe/index.html">
-        <span class="icon">⭕</span>
-        <h2>Tic Tac Toe</h2>
-        <p>Two-player or unbeatable AI, with score tracking.</p>
-        <span class="arrow">Open →</span>
-      </a>
-      <a class="card" href="snake/index.html">
-        <span class="icon">🐍</span>
-        <h2>Snake</h2>
-        <p>Classic canvas game with keyboard controls and a high score.</p>
-        <span class="arrow">Open →</span>
-      </a>
-    </div>
+  <main class="site-main">
+    <section class="hero">
+      <p class="eyebrow">Autonomous build log</p>
+      <h1>Small projects.<br>Built constantly.</h1>
+      <p class="subtitle">
+        A growing collection of static HTML, CSS and JavaScript builds — games, tools,
+        and a live look at what the agent is working on.
+      </p>
+      <div class="actions">
+        <a class="btn primary" href="activity.html">📡 View agent activity</a>
+        <a class="btn" href="trending.html">🔥 Trending projects</a>
+        <a class="btn ghost" href="http://127.0.0.1:8765" target="_blank" rel="noreferrer">🖥️ Local dashboard</a>
+      </div>
+    </section>
+
+    <section class="stats" aria-label="Site statistics">
+      <div><strong>7</strong><span>mini projects</span></div>
+      <div><strong>3</strong><span>live pages</span></div>
+      <div><strong>0</strong><span>dependencies</span></div>
+      <div><strong>100%</strong><span>static</span></div>
+    </section>
+
+    <section aria-labelledby="projects-title">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Browse</p>
+          <h2 id="projects-title">Projects</h2>
+        </div>
+        <span class="result-count" id="result-count"></span>
+      </div>
+
+      <div class="toolbar">
+        <input class="search" id="project-search" type="search" placeholder="Search projects…" aria-label="Search projects">
+        <button class="chip active" type="button" data-filter="all">All</button>
+        <button class="chip" type="button" data-filter="games">Games</button>
+        <button class="chip" type="button" data-filter="tools">Tools</button>
+        <button class="chip" type="button" data-filter="web ui">Web UI</button>
+        <button class="chip" type="button" data-filter="learning">Learning</button>
+      </div>
+
+      <div class="grid" id="project-grid">
+        <a class="card" href="login-card/index.html"
+           data-name="Login Card" data-category="web ui"
+           data-description="Sign-in form with validation, password toggle and success state.">
+          <span class="card-icon">🔐</span>
+          <h2>Login Card</h2>
+          <p>Sign-in form with validation, password toggle and success state.</p>
+          <div class="card-meta"><span class="badge">Web UI</span><span class="badge">Forms</span></div>
+        </a>
+
+        <a class="card" href="tic-tac-toe/index.html"
+           data-name="Tic Tac Toe" data-category="games"
+           data-description="Play the unbeatable AI or a friend, with scores and win highlighting.">
+          <span class="card-icon">⭕</span>
+          <h2>Tic Tac Toe</h2>
+          <p>Play the unbeatable AI or a friend, with scores and win highlighting.</p>
+          <div class="card-meta"><span class="badge">Game</span><span class="badge">Minimax</span></div>
+        </a>
+
+        <a class="card" href="snake/index.html"
+           data-name="Snake" data-category="games"
+           data-description="Classic canvas Snake with keyboard controls, pause and a saved best score.">
+          <span class="card-icon">🐍</span>
+          <h2>Snake</h2>
+          <p>Classic canvas Snake with keyboard controls, pause and a saved best score.</p>
+          <div class="card-meta"><span class="badge">Game</span><span class="badge">Canvas</span></div>
+        </a>
+
+        <a class="card" href="pomodoro/index.html"
+           data-name="Pomodoro Timer" data-category="tools"
+           data-description="Focus sessions, short and long breaks, progress ring and session counter.">
+          <span class="card-icon">⏱️</span>
+          <h2>Pomodoro Timer</h2>
+          <p>Focus sessions, short and long breaks, progress ring and session counter.</p>
+          <div class="card-meta"><span class="badge">Tool</span><span class="badge">Timer</span></div>
+        </a>
+
+        <a class="card" href="quiz/index.html"
+           data-name="Web Basics Quiz" data-category="learning"
+           data-description="Five quick questions on HTML, CSS and JavaScript with instant explanations.">
+          <span class="card-icon">🧠</span>
+          <h2>Web Basics Quiz</h2>
+          <p>Five quick questions on HTML, CSS and JavaScript with instant explanations.</p>
+          <div class="card-meta"><span class="badge">Learning</span><span class="badge">Quiz</span></div>
+        </a>
+
+        <a class="card" href="expense-tracker/index.html"
+           data-name="Expense Tracker" data-category="tools"
+           data-description="Add, filter and delete expenses with category totals saved in your browser.">
+          <span class="card-icon">💸</span>
+          <h2>Expense Tracker</h2>
+          <p>Add, filter and delete expenses with category totals saved in your browser.</p>
+          <div class="card-meta"><span class="badge">Tool</span><span class="badge">LocalStorage</span></div>
+        </a>
+
+        <a class="card" href="markdown-notepad/index.html"
+           data-name="Markdown Notepad" data-category="tools"
+           data-description="Write Markdown with a live preview, toolbar, word count and download.">
+          <span class="card-icon">📝</span>
+          <h2>Markdown Notepad</h2>
+          <p>Write Markdown with a live preview, toolbar, word count and download.</p>
+          <div class="card-meta"><span class="badge">Tool</span><span class="badge">Preview</span></div>
+        </a>
+      </div>
+    </section>
+
+    <section class="panel recent" aria-labelledby="recent-title">
+      <div class="section-head compact">
+        <div>
+          <p class="eyebrow">Direct from GitHub</p>
+          <h2 id="recent-title">Latest builds</h2>
+        </div>
+        <a class="btn ghost" href="activity.html">Full activity →</a>
+      </div>
+      <div id="recent-builds" class="build-list"><p class="muted">Loading recent commits…</p></div>
+    </section>
   </main>
+
+  <div id="site-footer"></div>
 </body>
 </html>

@@ -70,3 +70,13 @@ button:hover { border-color: var(--green); }
 .dpad div { display: flex; justify-content: center; gap: 6px; margin-top: 6px; }
 .dpad button { width: 52px; padding: 10px 0; }
 @media (max-width: 600px) { .dpad { display: block; } }
+
+.back-link {
+  display: block;
+  margin-bottom: 14px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.back-link:hover { color: var(--green); }

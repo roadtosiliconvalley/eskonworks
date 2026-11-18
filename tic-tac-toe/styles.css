@@ -65,3 +65,13 @@ h1 { margin: 0 0 4px; font-size: 30px; }
   cursor: pointer;
 }
 .secondary:hover { background: var(--panel); }
+
+.back-link {
+  display: block;
+  margin-bottom: 14px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.back-link:hover { color: var(--x); }

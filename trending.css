@@ -1,0 +1,119 @@
+.meta-line {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+  color: var(--site-muted);
+  font-size: 13px;
+}
+
+.meta-line strong { color: var(--site-text); }
+
+.filters { margin-bottom: 26px; }
+.filters .toolbar { margin: 0 0 14px; }
+
+.language-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+
+.repo-grid { margin-top: 12px; }
+
+.repo-card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-height: 210px;
+}
+
+.repo-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.rank {
+  color: var(--site-muted);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: .08em;
+}
+
+.repo-card h3 {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.35;
+}
+
+.repo-card h3 a {
+  color: var(--site-text);
+  text-decoration: none;
+}
+
+.repo-card h3 a:hover { color: var(--site-accent); }
+
+.repo-desc {
+  flex: 1;
+  margin: 0;
+  color: var(--site-muted);
+  font-size: 13px;
+  line-height: 1.5;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.repo-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 14px;
+  font-size: 12px;
+  color: var(--site-muted);
+}
+
+.stars {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--site-warn);
+  font-weight: 800;
+}
+
+.language {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--site-accent);
+}
+
+.section-tags { display: flex; flex-wrap: wrap; gap: 5px; }
+
+.topics-panel { margin-top: 36px; }
+
+.topics {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 8px 14px;
+}
+
+.topic {
+  color: var(--site-accent);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.topic small { color: var(--site-muted); font-weight: 500; }
+
+.note { margin-top: 18px; }
+.note p { margin: 0; font-size: 14px; }
+code { padding: 1px 5px; border-radius: 5px; background: var(--site-panel-2); font-size: .92em; }

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Live activity feed for the eskonworks autonomous agent.">
+  <title>eskonworks — agent activity</title>
+  <link rel="stylesheet" href="assets/site.css">
+  <link rel="stylesheet" href="activity.css">
+  <script src="assets/site.js" defer></script>
+  <script src="activity.js" defer></script>
+</head>
+<body data-page="activity">
+  <div id="site-header"></div>
+
+  <main class="site-main">
+    <section class="hero">
+      <p class="eyebrow">Live build feed</p>
+      <h1>Agent activity</h1>
+      <p class="subtitle">
+        What the autonomous agent has been doing, pulled directly from this repository's
+        issues and commits. No backend, no token in the browser.
+      </p>
+      <div class="actions">
+        <span class="status-pill" id="bot-status">Checking status…</span>
+        <a class="btn" href="http://127.0.0.1:8765" target="_blank" rel="noreferrer">🖥️ Open local dashboard</a>
+      </div>
+    </section>
+
+    <section class="stat-grid" aria-label="Activity statistics">
+      <div class="stat"><strong id="stat-open">—</strong><span>Open auto tasks</span></div>
+      <div class="stat"><strong id="stat-done">—</strong><span>Completed tasks</span></div>
+      <div class="stat"><strong id="stat-commits">—</strong><span>Recent commits</span></div>
+      <div class="stat"><strong id="stat-updated">—</strong><span>Last refresh</span></div>
+    </section>
+
+    <div class="two-col">
+      <section class="panel">
+        <h2>Current focus</h2>
+        <div class="focus-box">
+          <span class="focus-icon" id="focus-icon">🤖</span>
+          <div>
+            <h3 id="focus-title">Loading…</h3>
+            <p class="muted" id="focus-detail">Reading repository data.</p>
+          </div>
+        </div>
+        <div class="progress-track" aria-hidden="true"><div class="progress-fill" id="focus-progress"></div></div>
+        <p class="muted small" id="focus-note">
+          Tasks come from GitHub issues labelled <code>auto</code>. Open one to queue the next build.
+        </p>
+      </section>
+
+      <section class="panel">
+        <h2>Activity timeline</h2>
+        <div class="timeline" id="activity-timeline"><p class="muted">Loading timeline…</p></div>
+      </section>
+    </div>
+
+    <div class="two-col spaced">
+      <section class="panel">
+        <h2>Recent commits</h2>
+        <div class="item-list" id="commit-list"><p class="muted">Loading commits…</p></div>
+      </section>
+
+      <section class="panel">
+        <h2>Issue queue</h2>
+        <div class="item-list" id="issue-list"><p class="muted">Loading issues…</p></div>
+      </section>
+    </div>
+
+    <section class="panel note">
+      <h2>How this stays fresh</h2>
+      <p class="muted">
+        On GitHub Pages this page calls the public GitHub API on load. A scheduled workflow
+        also refreshes <code>data/activity.json</code>, which is the offline fallback. The
+        local Windows dashboard at <code>127.0.0.1:8765</code> shows the supervisor terminal
+        stream while your PC is running.
+      </p>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+</body>
+</html>

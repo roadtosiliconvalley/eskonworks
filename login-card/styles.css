@@ -87,3 +87,13 @@ input.invalid { border-color: var(--error); }
 .success { margin: 16px 0 0; color: #15803d; font-weight: 600; font-size: 13px; }
 .footer { margin: 22px 0 0; color: var(--muted); font-size: 13px; text-align: center; }
 .footer a { color: var(--accent); font-weight: 600; text-decoration: none; }
+
+.back-link {
+  display: block;
+  margin-bottom: 16px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.back-link:hover { color: var(--accent); }

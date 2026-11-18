@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Markdown Notepad — eskonworks</title>
+  <link rel="stylesheet" href="../assets/mini.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="mini-app wide">
+    <a class="back-link" href="../index.html">← All projects</a>
+    <header class="app-head">
+      <h1>Markdown Notepad</h1>
+      <p>Write on the left, see the result on the right. Saved locally as you type.</p>
+    </header>
+
+    <section class="panel editor-panel">
+      <div class="toolbar" role="toolbar" aria-label="Markdown formatting">
+        <button type="button" data-wrap="**" title="Bold"><strong>B</strong></button>
+        <button type="button" data-wrap="*" title="Italic"><em>I</em></button>
+        <button type="button" data-prefix="### " title="Heading">H</button>
+        <button type="button" data-prefix="- " title="List">• List</button>
+        <button type="button" data-prefix="> " title="Quote">❝</button>
+        <button type="button" data-wrap="`" title="Inline code">&lt;/&gt;</button>
+        <button type="button" data-link title="Link">🔗</button>
+        <span class="toolbar-spacer"></span>
+        <button type="button" id="downloadBtn">Download .md</button>
+        <button type="button" id="clearBtn">Clear</button>
+      </div>
+
+      <div class="split">
+        <div class="pane">
+          <div class="pane-label">Markdown</div>
+          <textarea id="source" spellcheck="false" placeholder="# Hello\n\nWrite some **Markdown** here…"></textarea>
+        </div>
+        <div class="pane">
+          <div class="pane-label">Preview</div>
+          <article id="preview" class="preview"></article>
+        </div>
+      </div>
+
+      <div class="status-bar">
+        <span id="counts">0 words · 0 characters</span>
+        <span id="saved">Saved locally</span>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
