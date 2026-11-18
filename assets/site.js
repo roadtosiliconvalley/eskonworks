@@ -4,7 +4,7 @@
   const page = body.dataset.page || '';
 
   const stored = localStorage.getItem('eskonworks-theme');
-  const theme = stored || (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+  const theme = stored || 'light';
   document.documentElement.dataset.theme = theme;
 
   const links = [
