@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Drawing Pad — eskonworks</title>
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/mini.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="mini-app wide">
+    <a class="back-link" href="../index.html">← All projects</a>
+    <header class="app-head">
+      <h1>Drawing Pad</h1>
+      <p>Doodle with your mouse or finger, then save it as a PNG.</p>
+    </header>
+
+    <section class="panel">
+      <div class="tools" role="toolbar" aria-label="Drawing tools">
+        <div class="swatches" id="swatches" role="group" aria-label="Colors"></div>
+        <label class="custom-color" title="Custom color">
+          <input type="color" id="customColor" value="#7c8cff" aria-label="Custom color">
+        </label>
+        <span class="divider"></span>
+        <label class="size-control">
+          <span>Size</span>
+          <input type="range" id="size" min="2" max="40" value="8" aria-label="Brush size">
+          <strong id="sizeValue">8</strong>
+        </label>
+        <span class="divider"></span>
+        <button type="button" id="pencilBtn" class="tool active">✏️ Pencil</button>
+        <button type="button" id="eraserBtn" class="tool">🩹 Eraser</button>
+        <span class="divider"></span>
+        <button type="button" id="undoBtn">↶ Undo</button>
+        <button type="button" id="clearBtn">Clear</button>
+        <button type="button" class="primary" id="downloadBtn">Download PNG</button>
+      </div>
+
+      <div class="canvas-wrap">
+        <canvas id="pad" width="900" height="520" aria-label="Drawing canvas"></canvas>
+      </div>
+      <p class="hint muted small">Tip: press Ctrl+Z to undo. Works with touch and stylus too.</p>
+    </section>
+  </main>
+</body>
+</html>

@@ -26,6 +26,8 @@ Open `index.html` locally, or visit the GitHub Pages site after enabling it in r
 | Web Basics Quiz | `quiz/` | Five HTML/CSS/JS questions with explanations |
 | Expense Tracker | `expense-tracker/` | Local budget ledger with category breakdown |
 | Markdown Notepad | `markdown-notepad/` | Live Markdown preview with toolbar and download |
+| Memory Match | `memory-match/` | Card-flipping memory game with timer and best score |
+| Drawing Pad | `drawing-pad/` | Canvas doodling with colors, eraser, undo and PNG export |
 
 Everything is plain **HTML, CSS and JavaScript** — no build step and no runtime dependencies.
 
