@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Mindful Space — a calm, private mental wellness toolkit with mood tracking, breathing and journaling.">
+  <title>Mindful Space — eskonworks</title>
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/mini.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="mini-app wellness">
+    <a class="back-link" href="../index.html">← All projects</a>
+    <header class="app-head">
+      <h1>Mindful Space</h1>
+      <p>A quiet corner for check-ins, breathing and small daily habits.</p>
+    </header>
+
+    <p class="disclaimer">💙 This is a self-help tool, not medical advice. Everything you enter stays in this browser. If you are in crisis, please reach out to a professional or a helpline listed under <strong>Support</strong>.</p>
+
+    <nav class="tabs" aria-label="Wellness tools">
+      <button type="button" class="tab active" data-tab="checkin">Mood check-in</button>
+      <button type="button" class="tab" data-tab="breathe">Breathe</button>
+      <button type="button" class="tab" data-tab="ground">Grounding</button>
+      <button type="button" class="tab" data-tab="journal">Gratitude</button>
+      <button type="button" class="tab" data-tab="support">Support</button>
+    </nav>
+
+    <section class="view" id="view-checkin">
+      <section class="panel">
+        <h2>How are you feeling right now?</h2>
+        <div class="mood-options" id="moodOptions">
+          <button type="button" data-mood="1"><span>😞</span>Very low</button>
+          <button type="button" data-mood="2"><span>😕</span>Low</button>
+          <button type="button" data-mood="3"><span>😐</span>Okay</button>
+          <button type="button" data-mood="4"><span>🙂</span>Good</button>
+          <button type="button" data-mood="5"><span>😄</span>Great</button>
+        </div>
+        <p class="mood-note muted" id="moodNote">No check-in yet today.</p>
+      </section>
+
+      <section class="panel">
+        <h2>Your last 7 days</h2>
+        <div class="mood-chart" id="moodChart"></div>
+        <p class="muted small">A simple picture of your week — no judgement, just awareness.</p>
+      </section>
+    </section>
+
+    <section class="view" id="view-breathe" hidden>
+      <section class="panel center">
+        <h2>Follow the circle</h2>
+        <div class="breath-stage">
+          <div class="breath-circle" id="breathCircle"><span id="breathPhase">Ready</span></div>
+        </div>
+        <p class="muted" id="breathHint">Press start, then breathe in as it grows and out as it shrinks.</p>
+        <div class="actions">
+          <button type="button" class="primary" id="breathStart">Start breathing</button>
+          <button type="button" id="breathStop" disabled>Stop</button>
+        </div>
+        <p class="muted small">Completed cycles: <strong id="breathCycles">0</strong></p>
+      </section>
+    </section>
+
+    <section class="view" id="view-ground" hidden>
+      <section class="panel center">
+        <h2>5 · 4 · 3 · 2 · 1</h2>
+        <p class="muted">A grounding exercise to bring your attention back to the present moment.</p>
+        <div class="ground-progress" id="groundProgress"></div>
+        <p class="ground-prompt" id="groundPrompt">Press start to begin.</p>
+        <textarea id="groundInput" rows="3" placeholder="Write what you notice…" disabled></textarea>
+        <div class="actions">
+          <button type="button" class="primary" id="groundStart">Start exercise</button>
+          <button type="button" id="groundNext" disabled>Next →</button>
+        </div>
+        <p class="muted small" id="groundDone"></p>
+      </section>
+    </section>
+
+    <section class="view" id="view-journal" hidden>
+      <section class="panel">
+        <h2>One good thing</h2>
+        <form id="gratitudeForm" class="journal-form">
+          <textarea id="gratitudeInput" rows="3" maxlength="400" placeholder="Something you're grateful for today…" required></textarea>
+          <button type="submit" class="primary">Add entry</button>
+        </form>
+      </section>
+      <section class="panel">
+        <h2>Your entries <span class="count" id="gratitudeCount">0</span></h2>
+        <div id="gratitudeList" class="journal-list"></div>
+      </section>
+    </section>
+
+    <section class="view" id="view-support" hidden>
+      <section class="panel">
+        <h2>If you need someone to talk to</h2>
+        <p class="muted">You deserve support. These services are free, confidential and available around the clock.</p>
+        <div class="resources">
+          <a class="resource" href="tel:988" target="_blank" rel="noreferrer">
+            <strong>988 Suicide &amp; Crisis Lifeline</strong>
+            <span>Call or text 988 · United States &amp; Canada</span>
+          </a>
+          <a class="resource" href="tel:116123" target="_blank" rel="noreferrer">
+            <strong>Samaritans</strong>
+            <span>Call 116 123 · United Kingdom &amp; Ireland</span>
+          </a>
+          <a class="resource" href="https://findahelpline.com/" target="_blank" rel="noreferrer">
+            <strong>Find a Helpline</strong>
+            <span>Helplines for more than 130 countries →</span>
+          </a>
+        </div>
+        <p class="support-note">If you are in immediate danger, call your local emergency number. This tool cannot provide diagnosis or treatment — a qualified professional can.</p>
+      </section>
+    </section>
+  </main>
+</body>
+</html>

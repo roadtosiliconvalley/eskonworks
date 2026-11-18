@@ -31,6 +31,7 @@ Open `index.html` locally, or visit the GitHub Pages site after enabling it in r
 | SchoolOS | `school-management/` | School dashboard: students, teachers, classes, attendance and grades |
 | JARVIS Voice Assistant | `jarvis-voice/` | Fictional Tony Stark-style AI with voice/typed commands and replies |
 | Eye in the Sky | `eye-in-the-sky/` | Fictional tactical radar simulator with contacts, telemetry and mission log |
+| Mindful Space | `mental-health/` | Wellness toolkit: mood check-ins, breathing, grounding and gratitude journal |
 
 Everything is plain **HTML, CSS and JavaScript** — no build step and no runtime dependencies.
 
