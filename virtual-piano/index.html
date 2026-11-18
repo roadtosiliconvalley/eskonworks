@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Virtual Piano — play notes with your keyboard or mouse using the Web Audio API.">
+  <title>Virtual Piano — eskonworks</title>
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/mini.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="mini-app wide">
+    <a class="back-link" href="../index.html">← All projects</a>
+    <header class="app-head">
+      <h1>Virtual Piano</h1>
+      <p>Play with your keyboard: white keys <kbd>A</kbd>–<kbd>J</kbd>, black keys <kbd>W E T Y U</kbd>.</p>
+    </header>
+
+    <section class="panel controls">
+      <div class="control-group">
+        <button type="button" id="octaveDown" aria-label="Lower octave">−</button>
+        <span>Octave <strong id="octaveLabel">4</strong></span>
+        <button type="button" id="octaveUp" aria-label="Higher octave">+</button>
+      </div>
+      <label class="volume">Volume <input type="range" id="volume" min="0" max="100" value="60"></label>
+      <span class="last-note">Last note: <strong id="lastNote">—</strong></span>
+    </section>
+
+    <section class="panel piano-panel">
+      <div class="piano" id="piano"></div>
+      <p class="muted small">Sound is synthesized in your browser with the Web Audio API — no audio files or libraries.</p>
+    </section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Palette Studio — generate harmonious color palettes, lock colors and copy hex codes.">
+  <title>Palette Studio — eskonworks</title>
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/mini.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="mini-app wide">
+    <a class="back-link" href="../index.html">← All projects</a>
+    <header class="app-head">
+      <h1>Palette Studio</h1>
+      <p>Generate a five-color scheme, lock favorites and copy the codes you like.</p>
+    </header>
+
+    <section class="panel controls">
+      <label class="field">Harmony
+        <select id="harmony">
+          <option value="analogous">Analogous</option>
+          <option value="complementary">Complementary</option>
+          <option value="triadic">Triadic</option>
+          <option value="monochrome">Monochrome</option>
+          <option value="random">Surprise me</option>
+        </select>
+      </label>
+      <button type="button" id="generateBtn" class="primary">Generate palette</button>
+      <button type="button" id="copyCssBtn">Copy CSS variables</button>
+    </section>
+
+    <div class="palette" id="palette"></div>
+
+    <section class="panel preview-panel">
+      <h2>Preview</h2>
+      <div class="preview" id="preview">
+        <h3>Design with color</h3>
+        <p>A quick look at how the palette works together on a small card.</p>
+        <button type="button">Sample button</button>
+      </div>
+      <p class="muted small" id="toast" aria-live="polite"></p>
+    </section>
+  </main>
+</body>
+</html>

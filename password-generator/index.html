@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Password Forge — generate strong random passwords locally in your browser.">
+  <title>Password Forge — eskonworks</title>
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/mini.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="mini-app">
+    <a class="back-link" href="../index.html">← All projects</a>
+    <header class="app-head">
+      <h1>Password Forge</h1>
+      <p>Strong, random passwords generated locally with the browser crypto API.</p>
+    </header>
+
+    <section class="panel result-panel">
+      <div class="password-output" id="password" aria-live="polite"></div>
+      <div class="result-actions">
+        <button type="button" id="copyBtn" class="primary">Copy</button>
+        <button type="button" id="generateBtn">Generate again</button>
+      </div>
+      <div class="strength">
+        <div class="strength-bars" id="strengthBars"><span></span><span></span><span></span><span></span></div>
+        <strong id="strengthLabel">—</strong>
+        <span class="muted small" id="entropyLabel"></span>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>Options</h2>
+      <div class="option-row">
+        <label for="length">Length <strong id="lengthValue">16</strong></label>
+        <input type="range" id="length" min="8" max="48" value="16">
+      </div>
+      <div class="checks">
+        <label><input type="checkbox" id="upper" checked> Uppercase <small>A–Z</small></label>
+        <label><input type="checkbox" id="lower" checked> Lowercase <small>a–z</small></label>
+        <label><input type="checkbox" id="digits" checked> Numbers <small>0–9</small></label>
+        <label><input type="checkbox" id="symbols" checked> Symbols <small>!@#$…</small></label>
+      </div>
+      <label class="exclude"><input type="checkbox" id="excludeSimilar"> Exclude similar characters <small>(0, O, 1, l, I)</small></label>
+      <p class="muted small">Nothing is sent anywhere — the password is created and copied entirely on this device.</p>
+    </section>
+  </main>
+</body>
+</html>

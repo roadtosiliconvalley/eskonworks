@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Flashcards — study decks with flip, shuffle, progress tracking and known-card marks.">
+  <title>Flashcards — eskonworks</title>
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/mini.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="mini-app">
+    <a class="back-link" href="../index.html">← All projects</a>
+    <header class="app-head">
+      <h1>Flashcards</h1>
+      <p>Flip through a deck, shuffle it, and mark what you already know.</p>
+    </header>
+
+    <section class="panel top-bar">
+      <div class="field">
+        <label for="deckSelect">Deck</label>
+        <select id="deckSelect"></select>
+      </div>
+      <button type="button" id="shuffleBtn">🔀 Shuffle</button>
+    </section>
+
+    <section class="panel">
+      <div class="card-stage">
+        <div class="flashcard" id="flashcard" role="button" tabindex="0" aria-label="Flip card">
+          <div class="face front">
+            <span class="face-label">Question</span>
+            <strong id="frontText"></strong>
+            <span class="flip-hint">Click to reveal →</span>
+          </div>
+          <div class="face back">
+            <span class="face-label">Answer</span>
+            <strong id="backText"></strong>
+            <span class="flip-hint">Click to hide →</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="nav">
+        <button type="button" id="prevBtn">← Previous</button>
+        <button type="button" id="flipBtn" class="primary">Flip</button>
+        <button type="button" id="nextBtn">Next →</button>
+      </div>
+      <div class="known-row">
+        <button type="button" id="knownBtn">✓ Mark as known</button>
+        <button type="button" id="restartBtn">Restart deck</button>
+      </div>
+    </section>
+
+    <section class="panel progress-panel">
+      <div class="progress-head">
+        <span id="position">Card 1 of 1</span>
+        <span id="knownCount">0 known</span>
+      </div>
+      <div class="progress"><div id="progressFill"></div></div>
+    </section>
+  </main>
+</body>
+</html>

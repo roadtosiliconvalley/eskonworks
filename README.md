@@ -32,6 +32,16 @@ Open `index.html` locally, or visit the GitHub Pages site after enabling it in r
 | JARVIS Voice Assistant | `jarvis-voice/` | Fictional Tony Stark-style AI with voice/typed commands and replies |
 | Eye in the Sky | `eye-in-the-sky/` | Fictional tactical radar simulator with contacts, telemetry and mission log |
 | Mindful Space | `mental-health/` | Wellness toolkit: mood check-ins, breathing, grounding and gratitude journal |
+| Password Forge | `password-generator/` | Strong random passwords with options, strength meter and copy |
+| Unit Converter | `unit-converter/` | Convert length, weight, temperature, area and data between units |
+| Tip Calculator | `tip-calculator/` | Split bills with tips, people count and a clear breakdown |
+| World Clock | `world-clock/` | Live analog/digital clocks for cities in multiple time zones |
+| Virtual Piano | `virtual-piano/` | Play notes with keyboard or mouse using Web Audio synthesis |
+| Flashcards | `flashcards/` | Study decks with flipping, shuffle, progress and known marks |
+| Minesweeper | `minesweeper/` | Classic puzzle with three difficulties, flags and safe first click |
+| 2048 | `2048/` | Slide-and-merge puzzle with keyboard, swipe and saved best score |
+| Palette Studio | `color-palette/` | Color harmonies with locks, hex editing and CSS export |
+| Habit Tracker | `habit-tracker/` | Weekly habit grid with streaks and locally stored progress |
 
 Everything is plain **HTML, CSS and JavaScript** — no build step and no runtime dependencies.
 

@@ -1,0 +1,31 @@
+body {
+  background:
+    radial-gradient(circle at 18% 0%, rgba(212, 160, 23, .14), transparent 42%),
+    radial-gradient(circle at 82% 12%, rgba(59, 130, 246, .14), transparent 42%),
+    var(--mini-bg);
+}
+.field { display: grid; gap: 8px; margin-bottom: 20px; }
+.field > label, .custom-tip label { font-size: 12px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; color: var(--mini-muted); }
+.money-input { display: flex; align-items: center; border: 1px solid var(--mini-line); border-radius: 11px; background: var(--mini-panel-2); overflow: hidden; }
+.money-input span { padding-left: 14px; color: #e3b341; font-size: 20px; font-weight: 800; }
+.money-input input { border: 0; background: transparent; font-size: 22px; font-weight: 800; }
+.money-input input:focus { box-shadow: none; }
+.tip-presets { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+.tip-presets button { padding: 11px 6px; font-weight: 800; }
+.tip-presets button.active { background: linear-gradient(135deg, #1d4ed8, #a9740c); color: #fff; border-color: transparent; }
+.custom-tip { display: flex; align-items: center; gap: 10px; margin-top: 10px; }
+.custom-tip input { max-width: 110px; }
+.stepper { display: flex; align-items: center; gap: 8px; }
+.stepper button { flex: 0 0 44px; height: 44px; padding: 0; font-size: 20px; }
+.stepper input { max-width: 110px; text-align: center; font-size: 18px; font-weight: 800; -moz-appearance: textfield; }
+.stepper input::-webkit-inner-spin-button { -webkit-appearance: none; }
+.results { display: grid; gap: 18px; }
+.hero-result { display: grid; gap: 4px; padding: 18px; border: 1px solid rgba(212, 160, 23, .35); border-radius: 13px; background: rgba(212, 160, 23, .08); text-align: center; }
+.hero-result strong { color: #e3b341; font-size: clamp(32px, 8vw, 48px); line-height: 1.1; }
+.breakdown { display: grid; gap: 9px; }
+.breakdown div { display: flex; justify-content: space-between; gap: 12px; padding: 9px 0; border-bottom: 1px solid var(--mini-line); font-size: 13px; }
+.breakdown div:last-child { border-bottom: 0; }
+.breakdown span { color: var(--mini-muted); }
+.breakdown small { color: #e3b341; }
+.breakdown strong { font-variant-numeric: tabular-nums; }
+@media (max-width: 480px) { .tip-presets { grid-template-columns: repeat(2, 1fr); } }

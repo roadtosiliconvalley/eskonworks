@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Minesweeper — a classic logic puzzle with three difficulty levels.">
+  <title>Minesweeper — eskonworks</title>
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/mini.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="mini-app">
+    <a class="back-link" href="../index.html">← All projects</a>
+    <header class="app-head">
+      <h1>Minesweeper</h1>
+      <p>Clear the grid without touching a mine. Right-click (or use flag mode) to mark them.</p>
+    </header>
+
+    <section class="panel">
+      <div class="toolbar">
+        <div class="difficulty" id="difficulty">
+          <button type="button" data-level="easy" class="active">Easy</button>
+          <button type="button" data-level="medium">Medium</button>
+          <button type="button" data-level="hard">Hard</button>
+        </div>
+        <button type="button" id="flagMode" class="flag-toggle">🚩 Flag mode: off</button>
+      </div>
+
+      <div class="game-bar">
+        <span class="counter">Mines <strong id="mineCount">10</strong></span>
+        <button type="button" id="restartBtn" class="face" title="New game">🙂</button>
+        <span class="counter">Time <strong id="timer">0</strong>s</span>
+      </div>
+
+      <div class="board-scroll"><div class="board" id="board" role="grid" aria-label="Minesweeper board"></div></div>
+      <p class="status" id="status">Click any square to begin. First click is always safe.</p>
+    </section>
+  </main>
+</body>
+</html>

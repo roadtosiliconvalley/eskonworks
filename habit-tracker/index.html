@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Habit Tracker — build streaks with a simple weekly check-in grid saved in your browser.">
+  <title>Habit Tracker — eskonworks</title>
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/mini.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="mini-app wide">
+    <a class="back-link" href="../index.html">← All projects</a>
+    <header class="app-head">
+      <h1>Habit Tracker</h1>
+      <p>Small check-ins, visible streaks. Everything stays private in this browser.</p>
+    </header>
+
+    <section class="panel">
+      <form id="addForm" class="add-form">
+        <input type="text" id="habitName" maxlength="40" placeholder="New habit (e.g. Drink water)" aria-label="New habit name" required>
+        <button type="submit" class="primary">Add habit</button>
+      </form>
+
+      <div class="week-bar">
+        <button type="button" id="prevWeek" aria-label="Previous week">←</button>
+        <strong id="weekLabel"></strong>
+        <button type="button" id="nextWeek" aria-label="Next week">→</button>
+        <button type="button" id="thisWeek">Today</button>
+      </div>
+    </section>
+
+    <section class="stats" aria-label="Habit statistics">
+      <div><strong id="habitTotal">0</strong><span>habits</span></div>
+      <div><strong id="todayDone">0</strong><span>done today</span></div>
+      <div><strong id="bestStreak">0</strong><span>best streak</span></div>
+      <div><strong id="weekRate">0%</strong><span>this week</span></div>
+    </section>
+
+    <section class="panel table-panel">
+      <div class="table-scroll">
+        <div class="habit-grid" id="habitGrid"></div>
+      </div>
+      <p class="muted small" id="emptyNote" hidden>Add your first habit above, then tick the days you complete it.</p>
+    </section>
+  </main>
+</body>
+</html>

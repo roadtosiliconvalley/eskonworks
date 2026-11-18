@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="World Clock — live times across multiple time zones with analog and digital displays.">
+  <title>World Clock — eskonworks</title>
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/mini.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="mini-app wide">
+    <a class="back-link" href="../index.html">← All projects</a>
+    <header class="app-head">
+      <h1>World Clock</h1>
+      <p>Live local time in cities around the world, updated every second.</p>
+    </header>
+
+    <section class="panel add-bar">
+      <label for="citySelect">Add a city</label>
+      <div class="add-controls">
+        <select id="citySelect"></select>
+        <button type="button" id="addBtn" class="primary">Add clock</button>
+      </div>
+    </section>
+
+    <div class="clock-grid" id="clockGrid"></div>
+    <p class="muted small">Times come from your device clock and the browser's time-zone database. Your city list is saved locally.</p>
+  </main>
+</body>
+</html>

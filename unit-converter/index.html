@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Unit Converter — convert length, weight, temperature, area and data instantly.">
+  <title>Unit Converter — eskonworks</title>
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/mini.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="mini-app">
+    <a class="back-link" href="../index.html">← All projects</a>
+    <header class="app-head">
+      <h1>Unit Converter</h1>
+      <p>Five categories, instant results, no lookup tables to memorize.</p>
+    </header>
+
+    <div class="tabs" id="tabs">
+      <button type="button" class="tab active" data-category="length">Length</button>
+      <button type="button" class="tab" data-category="weight">Weight</button>
+      <button type="button" class="tab" data-category="temperature">Temperature</button>
+      <button type="button" class="tab" data-category="area">Area</button>
+      <button type="button" class="tab" data-category="data">Data</button>
+    </div>
+
+    <section class="panel converter">
+      <div class="field label-row">
+        <label for="amount">Amount</label>
+        <span class="muted small" id="categoryHint"></span>
+      </div>
+      <input type="number" id="amount" value="1" step="any" placeholder="Enter a value">
+
+      <div class="conversion-row">
+        <div class="field">
+          <label for="fromUnit">From</label>
+          <select id="fromUnit"></select>
+        </div>
+        <button type="button" id="swapBtn" class="swap" title="Swap units" aria-label="Swap units">⇄</button>
+        <div class="field">
+          <label for="toUnit">To</label>
+          <select id="toUnit"></select>
+        </div>
+      </div>
+
+      <div class="result-box">
+        <span class="muted small">Result</span>
+        <strong id="result">—</strong>
+        <span id="resultUnit" class="muted small"></span>
+      </div>
+      <p class="muted small" id="formula"></p>
+    </section>
+  </main>
+</body>
+</html>

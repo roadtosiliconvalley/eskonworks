@@ -1,0 +1,25 @@
+.mini-app.wide { width: min(900px, 100%); }
+body {
+  background:
+    radial-gradient(circle at 14% 0%, rgba(212, 160, 23, .12), transparent 40%),
+    radial-gradient(circle at 86% 10%, rgba(59, 130, 246, .15), transparent 42%),
+    var(--mini-bg);
+}
+.controls { display: flex; flex-wrap: wrap; align-items: end; gap: 12px; margin-bottom: 18px; }
+.field { display: grid; gap: 7px; flex: 1; min-width: 180px; font-size: 12px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; color: var(--mini-muted); }
+.controls button { padding: 10px 16px; font-size: 13px; }
+.palette { display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; margin-bottom: 18px; }
+.swatch { position: relative; display: grid; grid-template-rows: 1fr auto; overflow: hidden; border: 1px solid var(--mini-line); border-radius: 13px; background: var(--mini-panel); box-shadow: var(--mini-shadow); }
+.color-block { min-height: 180px; }
+.swatch-body { display: grid; gap: 8px; padding: 12px; }
+.hex-input { width: 100%; padding: 7px 8px; border: 1px solid var(--mini-line); border-radius: 8px; background: var(--mini-panel-2); color: var(--mini-text); font: 700 13px ui-monospace, monospace; text-align: center; text-transform: uppercase; }
+.swatch-actions { display: flex; gap: 6px; }
+.swatch-actions button { flex: 1; padding: 6px 4px; font-size: 11px; }
+.swatch-actions button.locked { background: rgba(212, 160, 23, .2); border-color: #d4a017; color: #e3b341; }
+.preview-panel h2 { margin: 0 0 14px; font-size: 17px; }
+.preview { display: grid; justify-items: start; gap: 8px; padding: 22px; border-radius: 12px; background: var(--color-0, #1d4ed8); color: var(--color-4, #fff); }
+.preview h3 { margin: 0; font-size: 22px; }
+.preview p { margin: 0; max-width: 420px; font-size: 13px; }
+.preview button { padding: 9px 14px; border: 0; border-radius: 8px; background: var(--color-2, #d4a017); color: #fff; font-weight: 800; cursor: pointer; }
+#toast { min-height: 18px; margin: 12px 0 0; color: #34d399; font-size: 12px; }
+@media (max-width: 640px) { .palette { grid-template-columns: repeat(2, 1fr); } .color-block { min-height: 130px; } }

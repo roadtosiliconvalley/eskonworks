@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="2048 — slide and merge numbered tiles using arrow keys or swipe.">
+  <title>2048 — eskonworks</title>
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/mini.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="mini-app narrow">
+    <a class="back-link" href="../index.html">← All projects</a>
+    <header class="app-head">
+      <h1>2048</h1>
+      <p>Join matching tiles to reach 2048. Arrow keys, WASD or swipe to move.</p>
+    </header>
+
+    <section class="panel">
+      <div class="score-bar">
+        <div class="score-box"><span>Score</span><strong id="score">0</strong></div>
+        <button type="button" id="newGame" class="primary">New game</button>
+        <div class="score-box"><span>Best</span><strong id="best">0</strong></div>
+      </div>
+
+      <div class="board-wrap">
+        <div class="board" id="board" role="grid" aria-label="2048 board"></div>
+        <div class="overlay" id="overlay" hidden>
+          <strong id="overlayTitle">Game over</strong>
+          <p id="overlayText"></p>
+          <button type="button" id="overlayBtn" class="primary">Try again</button>
+        </div>
+      </div>
+      <p class="muted small">Every move slides all tiles in one direction. Two equal tiles merge into one.</p>
+    </section>
+  </main>
+</body>
+</html>

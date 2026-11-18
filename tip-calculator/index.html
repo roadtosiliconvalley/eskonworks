@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Tip Calculator — split a bill and work out tips per person instantly.">
+  <title>Tip Calculator — eskonworks</title>
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/mini.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="mini-app">
+    <a class="back-link" href="../index.html">← All projects</a>
+    <header class="app-head">
+      <h1>Tip Calculator</h1>
+      <p>Split the bill fairly without doing math at the table.</p>
+    </header>
+
+    <section class="panel">
+      <div class="field">
+        <label for="bill">Bill amount</label>
+        <div class="money-input"><span>$</span><input type="number" id="bill" value="84.50" min="0" step="0.01" inputmode="decimal"></div>
+      </div>
+
+      <div class="field">
+        <label>Tip percentage</label>
+        <div class="tip-presets" id="tipPresets">
+          <button type="button" data-tip="10">10%</button>
+          <button type="button" data-tip="15">15%</button>
+          <button type="button" data-tip="18">18%</button>
+          <button type="button" data-tip="20" class="active">20%</button>
+        </div>
+        <div class="custom-tip">
+          <label for="customTip">Custom</label>
+          <input type="number" id="customTip" min="0" max="100" step="0.5" placeholder="%">
+        </div>
+      </div>
+
+      <div class="field">
+        <label for="people">People</label>
+        <div class="stepper">
+          <button type="button" id="minus">−</button>
+          <input type="number" id="people" value="3" min="1" max="50">
+          <button type="button" id="plus">+</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel results">
+      <div class="hero-result">
+        <span class="muted small">Each person pays</span>
+        <strong id="perPerson">$0.00</strong>
+      </div>
+      <div class="breakdown">
+        <div><span>Subtotal</span><strong id="subtotal">$0.00</strong></div>
+        <div><span>Tip <small id="tipRate">20%</small></span><strong id="tipAmount">$0.00</strong></div>
+        <div><span>Total</span><strong id="total">$0.00</strong></div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

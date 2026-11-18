@@ -1,0 +1,31 @@
+body {
+  background:
+    radial-gradient(circle at 15% 0%, rgba(59, 130, 246, .14), transparent 42%),
+    radial-gradient(circle at 85% 10%, rgba(212, 160, 23, .12), transparent 40%),
+    var(--mini-bg);
+}
+.toolbar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 14px; }
+.difficulty { display: flex; gap: 6px; }
+.difficulty button { padding: 8px 13px; font-size: 12px; }
+.difficulty button.active, .flag-toggle.on { background: linear-gradient(135deg, #1d4ed8, #a9740c); color: #fff; border-color: transparent; }
+.flag-toggle { padding: 8px 12px; font-size: 12px; }
+.game-bar { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 12px; padding: 10px 14px; border: 1px solid var(--mini-line); border-radius: 11px; background: var(--mini-panel-2); }
+.counter { font-size: 12px; color: var(--mini-muted); text-transform: uppercase; letter-spacing: .08em; }
+.counter strong { display: inline-block; min-width: 34px; color: #e3b341; font: 700 18px ui-monospace, monospace; text-align: right; }
+.face { width: 38px; height: 38px; padding: 0; border-radius: 9px; font-size: 18px; }
+.board-scroll { overflow-x: auto; padding: 4px; }
+.board { display: grid; gap: 2px; width: max-content; margin: 0 auto; }
+.cell { display: grid; place-items: center; width: 30px; height: 30px; padding: 0; border: 1px solid #33466b; border-radius: 4px; background: #1b2a47; color: #e8eefc; font: 800 14px ui-monospace, monospace; cursor: pointer; }
+.cell:hover:not(.revealed) { background: #25395e; }
+.cell.revealed { border-color: #1c2942; background: #101b2f; cursor: default; }
+.cell.flag { color: #e3b341; }
+.cell.mine { background: rgba(251, 113, 133, .2); }
+.cell.wrong { background: rgba(251, 113, 133, .16); color: #fb7185; text-decoration: line-through; }
+.cell.n1 { color: #60a5fa; } .cell.n2 { color: #34d399; } .cell.n3 { color: #fb7185; }
+.cell.n4 { color: #c084fc; } .cell.n5 { color: #e3b341; } .cell.n6 { color: #22d3ee; }
+.cell.n7 { color: #f8fafc; } .cell.n8 { color: #94a3b8; }
+.board.hard .cell { width: 23px; height: 23px; font-size: 12px; }
+.board.medium .cell { width: 27px; height: 27px; }
+.status { min-height: 20px; margin: 14px 0 0; color: var(--mini-muted); font-size: 13px; text-align: center; }
+.status.win { color: #34d399; font-weight: 800; }
+.status.lose { color: #fb7185; font-weight: 800; }
