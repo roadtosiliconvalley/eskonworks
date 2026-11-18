@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Login Card</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="card">
+    <div class="avatar">✦</div>
+    <h1>Welcome back</h1>
+    <p class="sub">Sign in to continue to eskonworks.</p>
+
+    <form id="loginForm" novalidate>
+      <label for="email">Email</label>
+      <div class="field">
+        <input id="email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required>
+        <span class="error" id="emailError"></span>
+      </div>
+
+      <label for="password">Password</label>
+      <div class="field">
+        <div class="password-wrap">
+          <input id="password" name="password" type="password" placeholder="At least 8 characters" autocomplete="current-password" required>
+          <button type="button" class="toggle" id="togglePassword" aria-label="Show password">Show</button>
+        </div>
+        <span class="error" id="passwordError"></span>
+      </div>
+
+      <div class="row">
+        <label class="remember"><input type="checkbox" id="remember"> Remember me</label>
+        <a href="#" class="forgot">Forgot password?</a>
+      </div>
+
+      <button type="submit" class="submit">Sign in</button>
+    </form>
+
+    <p class="success" id="success" role="status" hidden>✓ Signed in successfully (demo only — no server).</p>
+    <p class="footer">No account? <a href="#">Create one</a></p>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

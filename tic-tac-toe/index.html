@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="game">
+    <h1>Tic Tac Toe</h1>
+    <p class="status" id="status" role="status">Your turn — X</p>
+
+    <div class="board" id="board" aria-label="Tic tac toe board">
+      <button class="cell" data-index="0" aria-label="Cell 1"></button>
+      <button class="cell" data-index="1" aria-label="Cell 2"></button>
+      <button class="cell" data-index="2" aria-label="Cell 3"></button>
+      <button class="cell" data-index="3" aria-label="Cell 4"></button>
+      <button class="cell" data-index="4" aria-label="Cell 5"></button>
+      <button class="cell" data-index="5" aria-label="Cell 6"></button>
+      <button class="cell" data-index="6" aria-label="Cell 7"></button>
+      <button class="cell" data-index="7" aria-label="Cell 8"></button>
+      <button class="cell" data-index="8" aria-label="Cell 9"></button>
+    </div>
+
+    <div class="scores">
+      <div><span>X wins</span><strong id="scoreX">0</strong></div>
+      <div><span>Draws</span><strong id="scoreD">0</strong></div>
+      <div><span>O wins</span><strong id="scoreO">0</strong></div>
+    </div>
+
+    <div class="controls">
+      <button id="modeBtn" class="secondary">Mode: vs AI</button>
+      <button id="resetBtn" class="secondary">Reset board</button>
+      <button id="clearBtn" class="secondary">Clear scores</button>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
