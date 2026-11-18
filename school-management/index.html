@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A static school management dashboard built with HTML, CSS and JavaScript.">
+  <title>SchoolOS — eskonworks</title>
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand">
+        <span class="brand-mark">S</span>
+        <div><strong>SchoolOS</strong><small>eskonworks</small></div>
+      </div>
+
+      <nav class="side-nav" aria-label="School management sections">
+        <button type="button" class="nav-item active" data-section="dashboard"><span>📊</span> Dashboard</button>
+        <button type="button" class="nav-item" data-section="students"><span>🎓</span> Students</button>
+        <button type="button" class="nav-item" data-section="teachers"><span>👩‍🏫</span> Teachers</button>
+        <button type="button" class="nav-item" data-section="classes"><span>🏫</span> Classes</button>
+        <button type="button" class="nav-item" data-section="attendance"><span>✅</span> Attendance</button>
+        <button type="button" class="nav-item" data-section="grades"><span>📝</span> Grades</button>
+      </nav>
+
+      <div class="side-footer">
+        <button type="button" id="resetBtn" class="ghost-btn">↺ Reset demo data</button>
+        <a href="../index.html">← All projects</a>
+      </div>
+    </aside>
+
+    <main class="content">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">School management</p>
+          <h1 id="sectionTitle">Dashboard</h1>
+          <p class="subtitle" id="sectionSubtitle">A quick overview of your school.</p>
+        </div>
+        <div class="top-meta">
+          <span id="today"></span>
+          <span class="pill">Local data · no server</span>
+        </div>
+      </header>
+
+      <section class="view" id="view-dashboard">
+        <div class="stat-grid">
+          <article class="stat"><span class="stat-icon blue">🎓</span><div><strong id="stat-students">0</strong><span>Students</span></div></article>
+          <article class="stat"><span class="stat-icon purple">👩‍🏫</span><div><strong id="stat-teachers">0</strong><span>Teachers</span></div></article>
+          <article class="stat"><span class="stat-icon green">🏫</span><div><strong id="stat-classes">0</strong><span>Classes</span></div></article>
+          <article class="stat"><span class="stat-icon amber">📈</span><div><strong id="stat-attendance">—</strong><span>Attendance</span></div></article>
+          <article class="stat"><span class="stat-icon pink">⭐</span><div><strong id="stat-average">—</strong><span>Avg. grade</span></div></article>
+        </div>
+
+        <div class="two-col">
+          <section class="panel">
+            <h2>Enrollment by class</h2>
+            <div id="class-bars" class="bars"></div>
+          </section>
+          <section class="panel">
+            <h2>Recent activity</h2>
+            <div id="activity-list" class="activity-list"></div>
+          </section>
+        </div>
+
+        <section class="panel quick">
+          <h2>Quick actions</h2>
+          <div class="actions">
+            <button type="button" class="primary" data-goto="students">+ Add a student</button>
+            <button type="button" data-goto="attendance">✅ Take attendance</button>
+            <button type="button" data-goto="grades">📝 Record a grade</button>
+          </div>
+        </section>
+      </section>
+
+      <section class="view" id="view-students" hidden>
+        <div class="two-col split-form">
+          <section class="panel">
+            <h2 id="student-form-title">Add student</h2>
+            <form id="student-form" class="form-grid">
+              <input type="hidden" id="student-edit-id">
+              <label>Full name<input id="student-name" type="text" required maxlength="60" placeholder="e.g. Ava Patel"></label>
+              <label>Email<input id="student-email" type="email" required placeholder="ava@example.com"></label>
+              <label>Class<select id="student-class" required></select></label>
+              <label>Phone<input id="student-phone" type="tel" maxlength="24" placeholder="Optional"></label>
+              <div class="form-actions">
+                <button type="submit" class="primary" id="student-submit">Add student</button>
+                <button type="button" id="student-cancel" hidden>Cancel</button>
+              </div>
+            </form>
+          </section>
+          <section class="panel">
+            <div class="panel-head"><h2>Student roster</h2><input id="student-search" class="search" type="search" placeholder="Search students…"></div>
+            <div class="table-wrap"><table><thead><tr><th>Name</th><th>Class</th><th>Email</th><th></th></tr></thead><tbody id="student-rows"></tbody></table></div>
+          </section>
+        </div>
+      </section>
+
+      <section class="view" id="view-teachers" hidden>
+        <div class="two-col split-form">
+          <section class="panel">
+            <h2 id="teacher-form-title">Add teacher</h2>
+            <form id="teacher-form" class="form-grid">
+              <input type="hidden" id="teacher-edit-id">
+              <label>Full name<input id="teacher-name" type="text" required maxlength="60" placeholder="e.g. Mr. Chen"></label>
+              <label>Subject<input id="teacher-subject" type="text" required maxlength="40" placeholder="e.g. Science"></label>
+              <label>Email<input id="teacher-email" type="email" required placeholder="teacher@example.com"></label>
+              <label>Phone<input id="teacher-phone" type="tel" maxlength="24" placeholder="Optional"></label>
+              <div class="form-actions">
+                <button type="submit" class="primary" id="teacher-submit">Add teacher</button>
+                <button type="button" id="teacher-cancel" hidden>Cancel</button>
+              </div>
+            </form>
+          </section>
+          <section class="panel">
+            <h2>Faculty</h2>
+            <div class="table-wrap"><table><thead><tr><th>Name</th><th>Subject</th><th>Email</th><th></th></tr></thead><tbody id="teacher-rows"></tbody></table></div>
+          </section>
+        </div>
+      </section>
+
+      <section class="view" id="view-classes" hidden>
+        <div class="two-col split-form">
+          <section class="panel">
+            <h2 id="class-form-title">Add class</h2>
+            <form id="class-form" class="form-grid">
+              <input type="hidden" id="class-edit-id">
+              <label>Class name<input id="class-name" type="text" required maxlength="30" placeholder="e.g. 10-A"></label>
+              <label>Grade level<input id="class-grade" type="text" required maxlength="20" placeholder="e.g. Grade 10"></label>
+              <label>Room<input id="class-room" type="text" maxlength="20" placeholder="e.g. 201"></label>
+              <label>Homeroom teacher<select id="class-teacher" required></select></label>
+              <div class="form-actions">
+                <button type="submit" class="primary" id="class-submit">Add class</button>
+                <button type="button" id="class-cancel" hidden>Cancel</button>
+              </div>
+            </form>
+          </section>
+          <section class="panel">
+            <h2>Classes</h2>
+            <div class="table-wrap"><table><thead><tr><th>Class</th><th>Grade</th><th>Room</th><th>Teacher</th><th></th></tr></thead><tbody id="class-rows"></tbody></table></div>
+          </section>
+        </div>
+      </section>
+
+      <section class="view" id="view-attendance" hidden>
+        <section class="panel">
+          <div class="attendance-head">
+            <div class="filters">
+              <label>Date<input id="attendance-date" type="date"></label>
+              <label>Class<select id="attendance-class"></select></label>
+            </div>
+            <div class="form-actions">
+              <button type="button" id="mark-all-btn">Mark all present</button>
+            </div>
+          </div>
+          <div id="attendance-summary" class="attendance-summary"></div>
+          <div id="attendance-list" class="attendance-list"></div>
+        </section>
+      </section>
+
+      <section class="view" id="view-grades" hidden>
+        <div class="two-col split-form">
+          <section class="panel">
+            <h2 id="grade-form-title">Record a grade</h2>
+            <form id="grade-form" class="form-grid">
+              <input type="hidden" id="grade-edit-id">
+              <label>Student<select id="grade-student" required></select></label>
+              <label>Subject<input id="grade-subject" type="text" list="subject-list" required maxlength="40" placeholder="e.g. Math"></label>
+              <datalist id="subject-list"></datalist>
+              <label>Score (0–100)<input id="grade-score" type="number" min="0" max="100" required></label>
+              <div class="form-actions">
+                <button type="submit" class="primary" id="grade-submit">Save grade</button>
+                <button type="button" id="grade-cancel" hidden>Cancel</button>
+              </div>
+            </form>
+            <div id="grade-summary" class="grade-summary"></div>
+          </section>
+          <section class="panel">
+            <h2>Gradebook</h2>
+            <div class="table-wrap"><table><thead><tr><th>Student</th><th>Subject</th><th>Score</th><th>Grade</th><th></th></tr></thead><tbody id="grade-rows"></tbody></table></div>
+          </section>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>

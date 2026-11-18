@@ -28,6 +28,7 @@ Open `index.html` locally, or visit the GitHub Pages site after enabling it in r
 | Markdown Notepad | `markdown-notepad/` | Live Markdown preview with toolbar and download |
 | Memory Match | `memory-match/` | Card-flipping memory game with timer and best score |
 | Drawing Pad | `drawing-pad/` | Canvas doodling with colors, eraser, undo and PNG export |
+| SchoolOS | `school-management/` | School dashboard: students, teachers, classes, attendance and grades |
 
 Everything is plain **HTML, CSS and JavaScript** — no build step and no runtime dependencies.
 
