@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20 12:29 UTC",
+  "generated_at": "2026-11-21 12:04 UTC",
   "window_days": 7,
   "min_stars": 50,
   "sections": [
@@ -9,7 +9,7 @@
         {
           "full_name": "erkamyaman/rust-anything",
           "html_url": "https://github.com/erkamyaman/rust-anything",
-          "stargazers_count": 5980,
+          "stargazers_count": 7019,
           "language": "Rust",
           "description": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
           "created_at": "2026-11-16T12:10:36Z",
@@ -39,7 +39,7 @@
         {
           "full_name": "krisgfx9/Wireless-Device-Battery-Monitor",
           "html_url": "https://github.com/krisgfx9/Wireless-Device-Battery-Monitor",
-          "stargazers_count": 4977,
+          "stargazers_count": 5574,
           "language": "C++",
           "description": "Show the battery level of wireless mice, headsets, keyboards and controllers on the Windows 10/11 taskbar. Lightweight tray app, no vendor software needed. Supports Logitech, Razer, SteelSeries, Corsair, HyperX, Glorious, PS4/PS5 DualSense, Xbox and Bluetooth devices.",
           "created_at": "2026-11-16T19:28:29Z",
@@ -48,7 +48,7 @@
         {
           "full_name": "gylive/google-ultra",
           "html_url": "https://github.com/gylive/google-ultra",
-          "stargazers_count": 2506,
+          "stargazers_count": 2565,
           "language": "Python",
           "description": null,
           "created_at": "2026-11-17T10:21:54Z",
@@ -57,16 +57,46 @@
         {
           "full_name": "Hut-hzf/ung220z-tool",
           "html_url": "https://github.com/Hut-hzf/ung220z-tool",
-          "stargazers_count": 1911,
+          "stargazers_count": 2157,
           "language": "Python",
           "description": "ung220z-tool 是一个针对 UNG220Z（九联/Unionman 中国移动光猫）的一键凭据提取工具，仅限在你自己的设备上用于找回忘记的管理密码、迁移宽带配置或安全自查。",
           "created_at": "2026-11-15T11:16:46Z",
           "topics": []
         },
         {
+          "full_name": "bookwjitchieni1986/blender-ai-mcp-addon",
+          "html_url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
+          "stargazers_count": 1914,
+          "language": null,
+          "description": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
+          "created_at": "2026-11-19T14:43:10Z",
+          "topics": [
+            "ai-agents",
+            "ai-assistant",
+            "blender",
+            "blender-addon",
+            "blender-ai",
+            "blender-automation",
+            "blender-mcp",
+            "blender-plugin",
+            "blender-scripting",
+            "bpy",
+            "chatgpt",
+            "claude",
+            "gemini",
+            "llm",
+            "mcp",
+            "mcp-for-blender",
+            "mcp-server",
+            "model-context-protocol",
+            "ollama",
+            "opencode"
+          ]
+        },
+        {
           "full_name": "CzzzzzzJ/mdldm-maitian",
           "html_url": "https://github.com/CzzzzzzJ/mdldm-maitian",
-          "stargazers_count": 1684,
+          "stargazers_count": 1761,
           "language": "JavaScript",
           "description": "麦田：自媒体多平台发布中控与数据监控（B站/抖音/小红书/视频号/YouTube/X），飞书卡片通知 + 数据大屏",
           "created_at": "2026-11-14T03:59:22Z",
@@ -82,7 +112,7 @@
         {
           "full_name": "duwqijlk/muse-protocol",
           "html_url": "https://github.com/duwqijlk/muse-protocol",
-          "stargazers_count": 1678,
+          "stargazers_count": 1716,
           "language": "Python",
           "description": "muse.ai 注册与邀请码兑换协议研究（纯 HTTP Python 实现）",
           "created_at": "2026-11-14T01:24:58Z",
@@ -91,16 +121,42 @@
         {
           "full_name": "haziqahmedqasmi/PeakCut",
           "html_url": "https://github.com/haziqahmedqasmi/PeakCut",
-          "stargazers_count": 1463,
+          "stargazers_count": 1602,
           "language": "Python",
           "description": "AI clipping for long videos and live streams. Self-hosted, bring your own AI key.",
           "created_at": "2026-11-14T07:38:20Z",
           "topics": []
         },
         {
+          "full_name": "iamajmeena/neonclipping",
+          "html_url": "https://github.com/iamajmeena/neonclipping",
+          "stargazers_count": 1513,
+          "language": "Python",
+          "description": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
+          "created_at": "2026-11-19T10:00:43Z",
+          "topics": [
+            "ai-video-clipper",
+            "clipping",
+            "faster-whisper",
+            "ffmpeg",
+            "gameplay-clipper",
+            "local-llm",
+            "ollama",
+            "open-source-video-editor",
+            "opusclip-alternative",
+            "shorts",
+            "twitch-clips",
+            "vertical-video",
+            "video",
+            "whisper",
+            "youtube-shorts-generator",
+            "yt-dlp"
+          ]
+        },
+        {
           "full_name": "sybil-solutions/inference-optimisation-skill",
           "html_url": "https://github.com/sybil-solutions/inference-optimisation-skill",
-          "stargazers_count": 1289,
+          "stargazers_count": 1413,
           "language": "Python",
           "description": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization",
           "created_at": "2026-11-16T18:40:04Z",
@@ -111,42 +167,6 @@
             "inference",
             "llm",
             "speculative-decoding"
-          ]
-        },
-        {
-          "full_name": "joshpuckett/allo",
-          "html_url": "https://github.com/joshpuckett/allo",
-          "stargazers_count": 1205,
-          "language": "Python",
-          "description": "Allo is your friendly neighborhood typeface, free and open source",
-          "created_at": "2026-11-15T17:33:42Z",
-          "topics": []
-        },
-        {
-          "full_name": "zephyr4123/snug",
-          "html_url": "https://github.com/zephyr4123/snug",
-          "stargazers_count": 1132,
-          "language": "Swift",
-          "description": "让远程 Mac 在任意设备上获得原生级体验。专为 UU远程 打造的显示与触控增强：手机、平板、电脑各有专属屏幕，画面铺满、字号随屏，原生触屏手势，App 资源库。Make UU Remote native on any device: a dedicated screen for every phone, tablet and computer, with native touch gestures and an App Library.",
-          "created_at": "2026-11-13T03:26:21Z",
-          "topics": [
-            "android",
-            "gestures",
-            "ipad",
-            "iphone",
-            "macos",
-            "macos-app",
-            "menubar-app",
-            "multi-monitor",
-            "productivity",
-            "remote-control",
-            "remote-desktop",
-            "swift",
-            "swiftui",
-            "tablet",
-            "uu-remote",
-            "virtual-display",
-            "window-management"
           ]
         }
       ]
@@ -157,7 +177,7 @@
         {
           "full_name": "gylive/google-ultra",
           "html_url": "https://github.com/gylive/google-ultra",
-          "stargazers_count": 2506,
+          "stargazers_count": 2565,
           "language": "Python",
           "description": null,
           "created_at": "2026-11-17T10:21:54Z",
@@ -166,7 +186,7 @@
         {
           "full_name": "Hut-hzf/ung220z-tool",
           "html_url": "https://github.com/Hut-hzf/ung220z-tool",
-          "stargazers_count": 1911,
+          "stargazers_count": 2157,
           "language": "Python",
           "description": "ung220z-tool 是一个针对 UNG220Z（九联/Unionman 中国移动光猫）的一键凭据提取工具，仅限在你自己的设备上用于找回忘记的管理密码、迁移宽带配置或安全自查。",
           "created_at": "2026-11-15T11:16:46Z",
@@ -175,7 +195,7 @@
         {
           "full_name": "duwqijlk/muse-protocol",
           "html_url": "https://github.com/duwqijlk/muse-protocol",
-          "stargazers_count": 1678,
+          "stargazers_count": 1716,
           "language": "Python",
           "description": "muse.ai 注册与邀请码兑换协议研究（纯 HTTP Python 实现）",
           "created_at": "2026-11-14T01:24:58Z",
@@ -184,26 +204,36 @@
         {
           "full_name": "haziqahmedqasmi/PeakCut",
           "html_url": "https://github.com/haziqahmedqasmi/PeakCut",
-          "stargazers_count": 1463,
+          "stargazers_count": 1602,
           "language": "Python",
           "description": "AI clipping for long videos and live streams. Self-hosted, bring your own AI key.",
           "created_at": "2026-11-14T07:38:20Z",
           "topics": []
         },
         {
-          "full_name": "sybil-solutions/inference-optimisation-skill",
-          "html_url": "https://github.com/sybil-solutions/inference-optimisation-skill",
-          "stargazers_count": 1289,
+          "full_name": "iamajmeena/neonclipping",
+          "html_url": "https://github.com/iamajmeena/neonclipping",
+          "stargazers_count": 1513,
           "language": "Python",
-          "description": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization",
-          "created_at": "2026-11-16T18:40:04Z",
+          "description": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
+          "created_at": "2026-11-19T10:00:43Z",
           "topics": [
-            "agent-skill",
-            "benchmarking",
-            "claude-code",
-            "inference",
-            "llm",
-            "speculative-decoding"
+            "ai-video-clipper",
+            "clipping",
+            "faster-whisper",
+            "ffmpeg",
+            "gameplay-clipper",
+            "local-llm",
+            "ollama",
+            "open-source-video-editor",
+            "opusclip-alternative",
+            "shorts",
+            "twitch-clips",
+            "vertical-video",
+            "video",
+            "whisper",
+            "youtube-shorts-generator",
+            "yt-dlp"
           ]
         }
       ]
@@ -212,51 +242,9 @@
       "title": "TypeScript",
       "repos": [
         {
-          "full_name": "opencoredev/islandcn",
-          "html_url": "https://github.com/opencoredev/islandcn",
-          "stargazers_count": 821,
-          "language": "TypeScript",
-          "description": "The open-source Dynamic Island for React, installed with shadcn.",
-          "created_at": "2026-11-13T11:50:50Z",
-          "topics": [
-            "dynamic-island",
-            "nextjs",
-            "react",
-            "shadcn",
-            "typescript",
-            "ui-components"
-          ]
-        },
-        {
-          "full_name": "ysunyang4/Nexus",
-          "html_url": "https://github.com/ysunyang4/Nexus",
-          "stargazers_count": 449,
-          "language": "TypeScript",
-          "description": "Connect web AI assistants to local files, terminals, Git, and desktop tools through MCP, with user-controlled permissions.",
-          "created_at": "2026-11-13T13:46:21Z",
-          "topics": [
-            "ai-agent",
-            "browser-extension",
-            "chrome-extension",
-            "llm",
-            "local-ai",
-            "mcp",
-            "webagent"
-          ]
-        },
-        {
-          "full_name": "Forward-Future/scarlet",
-          "html_url": "https://github.com/Forward-Future/scarlet",
-          "stargazers_count": 437,
-          "language": "TypeScript",
-          "description": "Scarlet is an AI video editor for macOS and Windows.",
-          "created_at": "2026-11-13T17:02:31Z",
-          "topics": []
-        },
-        {
           "full_name": "replit/datacat",
           "html_url": "https://github.com/replit/datacat",
-          "stargazers_count": 436,
+          "stargazers_count": 480,
           "language": "TypeScript",
           "description": "Self-hosted observability: metrics, logs, traces, dashboards and alerts. Stores data in PostgreSQL or ClickHouse. Accepts OpenTelemetry data.",
           "created_at": "2026-11-17T02:51:06Z",
@@ -276,13 +264,67 @@
           ]
         },
         {
-          "full_name": "EunChae1110/mmforge-platform",
-          "html_url": "https://github.com/EunChae1110/mmforge-platform",
-          "stargazers_count": 370,
+          "full_name": "johnlindquist/pi-emphasis",
+          "html_url": "https://github.com/johnlindquist/pi-emphasis",
+          "stargazers_count": 267,
           "language": "TypeScript",
-          "description": "A skill that turns a brief, screenshot, or copied element into a mod menu you can click through in a local canvas.",
-          "created_at": "2026-11-13T14:36:14Z",
+          "description": "Pi extension: colored status pills with icons, labeled headings and colored bold, so assistant replies are easy to scan",
+          "created_at": "2026-11-15T16:39:09Z",
+          "topics": [
+            "pi",
+            "pi-package"
+          ]
+        },
+        {
+          "full_name": "INK-Q/agy-fast",
+          "html_url": "https://github.com/INK-Q/agy-fast",
+          "stargazers_count": 229,
+          "language": "TypeScript",
+          "description": "Non-invasive MCP accelerator plugin for Google Antigravity (CLI/Desktop/IDE): cuts LLM turns (-34%), token quota (-31%), and upload traffic (-40%) without affecting native UI or diffs.",
+          "created_at": "2026-11-19T04:58:46Z",
+          "topics": [
+            "ai-coding",
+            "antigravity",
+            "coding-agent",
+            "developer-tools",
+            "gemini",
+            "google-antigravity",
+            "latency-optimization",
+            "mcp",
+            "mcp-server",
+            "performance",
+            "plugin",
+            "token-optimization"
+          ]
+        },
+        {
+          "full_name": "dmitrykurash/holospot",
+          "html_url": "https://github.com/dmitrykurash/holospot",
+          "stargazers_count": 200,
+          "language": "TypeScript",
+          "description": "The holographic materials of holo.spot for your own three.js scenes, made to be handed to an AI agent",
+          "created_at": "2026-11-17T13:38:59Z",
           "topics": []
+        },
+        {
+          "full_name": "joeseesun/subcast",
+          "html_url": "https://github.com/joeseesun/subcast",
+          "stargazers_count": 194,
+          "language": "TypeScript",
+          "description": "海外播客与 YouTube 的双语字幕、精读和 AI 问答桌面 App | Bilingual subtitles, deep reads and AI Q&A for overseas podcasts and YouTube",
+          "created_at": "2026-11-16T11:22:42Z",
+          "topics": [
+            "ai-assistant",
+            "bilingual",
+            "desktop-app",
+            "language-learning",
+            "podcast",
+            "speech-to-text",
+            "subtitles",
+            "tauri",
+            "whisper",
+            "youtube"
+          ]
         }
       ]
     },
@@ -292,7 +334,7 @@
         {
           "full_name": "CzzzzzzJ/mdldm-maitian",
           "html_url": "https://github.com/CzzzzzzJ/mdldm-maitian",
-          "stargazers_count": 1684,
+          "stargazers_count": 1761,
           "language": "JavaScript",
           "description": "麦田：自媒体多平台发布中控与数据监控（B站/抖音/小红书/视频号/YouTube/X），飞书卡片通知 + 数据大屏",
           "created_at": "2026-11-14T03:59:22Z",
@@ -308,7 +350,7 @@
         {
           "full_name": "siliconjungle/shapeshift-labs-ink-studio",
           "html_url": "https://github.com/siliconjungle/shapeshift-labs-ink-studio",
-          "stargazers_count": 768,
+          "stargazers_count": 906,
           "language": "JavaScript",
           "description": "Sculpting, animation and simulation toolkit for pixel-art Gaussian splats",
           "created_at": "2026-11-16T07:44:00Z",
@@ -317,7 +359,7 @@
         {
           "full_name": "nilbuild/stick-scene",
           "html_url": "https://github.com/nilbuild/stick-scene",
-          "stargazers_count": 523,
+          "stargazers_count": 544,
           "language": "JavaScript",
           "description": "Skill to draw stick figure animated visuals",
           "created_at": "2026-11-15T00:17:40Z",
@@ -326,7 +368,7 @@
         {
           "full_name": "hikaku-io/hikaku-extension",
           "html_url": "https://github.com/hikaku-io/hikaku-extension",
-          "stargazers_count": 388,
+          "stargazers_count": 398,
           "language": "JavaScript",
           "description": "Open-source browser extension that flags AI-generated images and video as you browse. Runs entirely on your device. Chrome, Edge and Firefox.",
           "created_at": "2026-11-14T14:06:05Z",
@@ -348,25 +390,13 @@
           ]
         },
         {
-          "full_name": "achun1107/xianyu-auto-listing",
-          "html_url": "https://github.com/achun1107/xianyu-auto-listing",
-          "stargazers_count": 373,
+          "full_name": "duwqijlk/google-trial-tool",
+          "html_url": "https://github.com/duwqijlk/google-trial-tool",
+          "stargazers_count": 385,
           "language": "JavaScript",
-          "description": "闲鱼自动化上架工具：输一句「城市 明星」自动出图、算标题/分类/规格并发布到闲鱼店铺（Xianyu / Goofish auto listing for proxy-bidding & ticketing）",
-          "created_at": "2026-11-13T04:48:32Z",
-          "topics": [
-            "alibaba",
-            "auto-listing",
-            "automation",
-            "chinese-ecommerce",
-            "ecommerce-automation",
-            "goofish",
-            "listing-tool",
-            "proxy-bidding",
-            "reselling",
-            "ticketing",
-            "xianyu"
-          ]
+          "description": null,
+          "created_at": "2026-11-19T11:06:16Z",
+          "topics": []
         }
       ]
     },
@@ -376,7 +406,7 @@
         {
           "full_name": "erkamyaman/rust-anything",
           "html_url": "https://github.com/erkamyaman/rust-anything",
-          "stargazers_count": 5980,
+          "stargazers_count": 7019,
           "language": "Rust",
           "description": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
           "created_at": "2026-11-16T12:10:36Z",
@@ -406,28 +436,16 @@
         {
           "full_name": "Lemxy/WinRust",
           "html_url": "https://github.com/Lemxy/WinRust",
-          "stargazers_count": 592,
+          "stargazers_count": 856,
           "language": "Rust",
           "description": "Windows shell replacement in Rust: taskbar, file manager, NTFS search, task manager, disk cleaner. One installer exe.",
           "created_at": "2026-11-17T14:27:06Z",
           "topics": []
         },
         {
-          "full_name": "quer3q/kraken-mount",
-          "html_url": "https://github.com/quer3q/kraken-mount",
-          "stargazers_count": 554,
-          "language": "Rust",
-          "description": "Minimalist PS5 game mounter supporting PKG, folder dumps, zstd and lz4",
-          "created_at": "2026-11-13T07:25:37Z",
-          "topics": [
-            "homebrew",
-            "ps5"
-          ]
-        },
-        {
           "full_name": "davidondrej/superbot",
           "html_url": "https://github.com/davidondrej/superbot",
-          "stargazers_count": 385,
+          "stargazers_count": 402,
           "language": "Rust",
           "description": "Open-source, self-hosted Grok Bot alternative",
           "created_at": "2026-11-15T17:30:43Z",
@@ -457,6 +475,27 @@
             "tv",
             "xtream",
             "xtreamcode"
+          ]
+        },
+        {
+          "full_name": "scarletkc/colab-playground",
+          "html_url": "https://github.com/scarletkc/colab-playground",
+          "stargazers_count": 307,
+          "language": "Rust",
+          "description": "A desktop app for the Google Colab CLI: accounts, GPU sessions with cost guards, port forwarding and plugins.",
+          "created_at": "2026-11-16T09:03:25Z",
+          "topics": [
+            "colab",
+            "desktop-app",
+            "gguf",
+            "google-colab",
+            "gpu",
+            "gpui",
+            "huggingface",
+            "llama-cpp",
+            "port-forwarding",
+            "rust",
+            "wsl"
           ]
         }
       ]
@@ -494,7 +533,7 @@
         {
           "full_name": "prusa3d/prusa-connect",
           "html_url": "https://github.com/prusa3d/prusa-connect",
-          "stargazers_count": 262,
+          "stargazers_count": 269,
           "language": "Go",
           "description": "Prusa Connect: a local server for your printers",
           "created_at": "2026-11-17T08:54:51Z",
@@ -503,56 +542,62 @@
         {
           "full_name": "xyc999-ai/go-bot",
           "html_url": "https://github.com/xyc999-ai/go-bot",
-          "stargazers_count": 161,
+          "stargazers_count": 198,
           "language": "Go",
           "description": "Go implementation of DeepSeek Harness and self-hosted personal agent.",
           "created_at": "2026-11-15T18:05:59Z",
           "topics": []
         },
         {
-          "full_name": "menakhaled3112008-commits/craft-cards",
-          "html_url": "https://github.com/menakhaled3112008-commits/craft-cards",
-          "stargazers_count": 153,
+          "full_name": "kokarai/premiere-elements",
+          "html_url": "https://github.com/kokarai/premiere-elements",
+          "stargazers_count": 154,
           "language": "Go",
-          "description": "Craft Cards: Multiplayer Card Battles with Nine-Grid Tables and Item Chips",
-          "created_at": "2026-11-15T19:40:45Z",
+          "description": "Premiere Elements: Story-First Home Video Editing Workflow",
+          "created_at": "2026-11-15T20:27:07Z",
           "topics": [
-            "automation",
-            "bedrock",
-            "bukkit-plugin",
-            "castles",
-            "derexx",
-            "java",
-            "java-25",
-            "minecraft-26-3",
-            "minecraft-mod-suite",
-            "minecraft-serverside",
-            "mixin",
-            "multiplayer",
-            "neoforge-mod",
-            "procedural-generation",
-            "storage",
-            "world-generation"
+            "adobe",
+            "adobe-premiere-pro-windows-download",
+            "after-effects",
+            "cep-extension",
+            "color-grading",
+            "extendscript-es6",
+            "illustrator-2023",
+            "jsx",
+            "photoshop",
+            "serial-number",
+            "uxp",
+            "zxp"
           ]
         },
         {
-          "full_name": "jbfixurpc/satano-overwatch-2-overlay",
-          "html_url": "https://github.com/jbfixurpc/satano-overwatch-2-overlay",
-          "stargazers_count": 153,
+          "full_name": "frandymbangwei-ux/spam-mail-detector-ml",
+          "html_url": "https://github.com/frandymbangwei-ux/spam-mail-detector-ml",
+          "stargazers_count": 154,
           "language": "Go",
-          "description": "Satano Overwatch 2 Overlay: Real-Time Hero Head Marking for Focused Target Tracking",
-          "created_at": "2026-11-15T20:35:38Z",
+          "description": "Spam Mail Detector ML: Machine Learning Email Classification and Spam Detection",
+          "created_at": "2026-11-15T20:43:26Z",
           "topics": [
-            "deathmatch",
-            "ffa",
-            "overpy",
-            "overwatch-2",
-            "overwatch-script",
-            "overwatch-workshop",
-            "overwatch2-tool",
-            "roll-the-dice",
-            "rus",
-            "workshop"
+            "accuracy-score",
+            "algorithm",
+            "artificial-intelligence-algorithms",
+            "artificial-intelligence-models",
+            "artificial-intelligence-projects",
+            "bash-script",
+            "detectany-kind",
+            "logistic-regression",
+            "nlp-machine-learning",
+            "numpy",
+            "spam",
+            "spam-classification",
+            "spam-detection",
+            "spam-filtering",
+            "spam-mail",
+            "spam-mail-classifier",
+            "spam-protection",
+            "tensorflow",
+            "tensorflow2",
+            "tfidf-vectorizer"
           ]
         }
       ]
@@ -560,51 +605,51 @@
   ],
   "topics": [
     {
+      "name": "mcp",
+      "count": 4
+    },
+    {
       "name": "claude-code",
-      "count": 4
-    },
-    {
-      "name": "typescript",
-      "count": 4
-    },
-    {
-      "name": "automation",
-      "count": 4
-    },
-    {
-      "name": "chrome-extension",
-      "count": 4
-    },
-    {
-      "name": "llm",
-      "count": 4
+      "count": 3
     },
     {
       "name": "cli",
       "count": 3
     },
     {
-      "name": "java",
+      "name": "performance",
       "count": 3
     },
     {
-      "name": "mcp",
+      "name": "rust",
+      "count": 3
+    },
+    {
+      "name": "typescript",
+      "count": 3
+    },
+    {
+      "name": "llm",
+      "count": 3
+    },
+    {
+      "name": "mcp-server",
+      "count": 3
+    },
+    {
+      "name": "ollama",
+      "count": 3
+    },
+    {
+      "name": "chrome-extension",
+      "count": 3
+    },
+    {
+      "name": "whisper",
       "count": 3
     },
     {
       "name": "agent-skills",
-      "count": 2
-    },
-    {
-      "name": "code-migration",
-      "count": 2
-    },
-    {
-      "name": "codex",
-      "count": 2
-    },
-    {
-      "name": "ffi",
       "count": 2
     }
   ]
