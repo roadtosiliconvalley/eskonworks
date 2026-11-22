@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T12:04:34Z",
+  "generated_at": "2026-11-22T12:16:22Z",
   "bot": {
     "status": "online",
     "current_task": "Building: #1 Add a hello world script",
@@ -12,6 +12,12 @@
     "total_commits": 6
   },
   "timeline": [
+    {
+      "time": "2026-11-21T12:04:34Z",
+      "kind": "commit",
+      "title": "chore: refresh site data",
+      "detail": "Commit abc0cb3"
+    },
     {
       "time": "2026-11-20T12:29:31Z",
       "kind": "commit",
@@ -43,12 +49,6 @@
       "detail": "Commit a8e6d05"
     },
     {
-      "time": "2026-11-18T10:54:14Z",
-      "kind": "commit",
-      "title": "style: restyle project hub with gold, blue and white theme",
-      "detail": "Commit 8e905eb"
-    },
-    {
       "time": "2026-11-17T13:20:05Z",
       "kind": "task",
       "title": "#1 Add a hello world script",
@@ -56,6 +56,12 @@
     }
   ],
   "recent_commits": [
+    {
+      "sha": "abc0cb3",
+      "message": "chore: refresh site data",
+      "url": "https://github.com/roadtosiliconvalley/eskonworks/commit/abc0cb325484c99febd6db50dc32f0415533625e",
+      "date": "2026-11-21T12:04:34Z"
+    },
     {
       "sha": "87179d9",
       "message": "chore: refresh site data",
@@ -85,12 +91,6 @@
       "message": "feat: add JARVIS voice assistant and Eye in the Sky simulator",
       "url": "https://github.com/roadtosiliconvalley/eskonworks/commit/a8e6d05ade0fde4eaec6d925cee9ee668ebc13d7",
       "date": "2026-11-18T11:02:31Z"
-    },
-    {
-      "sha": "8e905eb",
-      "message": "style: restyle project hub with gold, blue and white theme",
-      "url": "https://github.com/roadtosiliconvalley/eskonworks/commit/8e905eb896a54b7d53009799159826ca3ea1b218",
-      "date": "2026-11-18T10:54:14Z"
     }
   ],
   "open_issues": [
