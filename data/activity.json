@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T12:16:22Z",
+  "generated_at": "2026-11-23T13:59:37Z",
   "bot": {
     "status": "online",
     "current_task": "Building: #1 Add a hello world script",
@@ -12,6 +12,12 @@
     "total_commits": 6
   },
   "timeline": [
+    {
+      "time": "2026-11-22T12:16:22Z",
+      "kind": "commit",
+      "title": "chore: refresh site data",
+      "detail": "Commit 57e2e7b"
+    },
     {
       "time": "2026-11-21T12:04:34Z",
       "kind": "commit",
@@ -43,12 +49,6 @@
       "detail": "Commit 481c60e"
     },
     {
-      "time": "2026-11-18T11:02:31Z",
-      "kind": "commit",
-      "title": "feat: add JARVIS voice assistant and Eye in the Sky simulator",
-      "detail": "Commit a8e6d05"
-    },
-    {
       "time": "2026-11-17T13:20:05Z",
       "kind": "task",
       "title": "#1 Add a hello world script",
@@ -56,6 +56,12 @@
     }
   ],
   "recent_commits": [
+    {
+      "sha": "57e2e7b",
+      "message": "chore: refresh site data",
+      "url": "https://github.com/roadtosiliconvalley/eskonworks/commit/57e2e7b2a805f12c86c85a6a5b720c1033e43c35",
+      "date": "2026-11-22T12:16:22Z"
+    },
     {
       "sha": "abc0cb3",
       "message": "chore: refresh site data",
@@ -85,12 +91,6 @@
       "message": "feat: add Mindful Space mental wellness site",
       "url": "https://github.com/roadtosiliconvalley/eskonworks/commit/481c60eeaf2fdd0cf4930d15a609b4985bb39f83",
       "date": "2026-11-18T11:32:45Z"
-    },
-    {
-      "sha": "a8e6d05",
-      "message": "feat: add JARVIS voice assistant and Eye in the Sky simulator",
-      "url": "https://github.com/roadtosiliconvalley/eskonworks/commit/a8e6d05ade0fde4eaec6d925cee9ee668ebc13d7",
-      "date": "2026-11-18T11:02:31Z"
     }
   ],
   "open_issues": [

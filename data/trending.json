@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22 12:16 UTC",
+  "generated_at": "2026-11-23 13:59 UTC",
   "window_days": 7,
   "min_stars": 50,
   "sections": [
@@ -9,7 +9,7 @@
         {
           "full_name": "ItsNotRexed/Leonida",
           "html_url": "https://github.com/ItsNotRexed/Leonida",
-          "stargazers_count": 9680,
+          "stargazers_count": 20211,
           "language": "Python",
           "description": "Leonida Is A Native PC Recompilation Of The Xbox Version Of Grand Theft Auto 6",
           "created_at": "2026-11-20T20:07:13Z",
@@ -18,7 +18,7 @@
         {
           "full_name": "erkamyaman/rust-anything",
           "html_url": "https://github.com/erkamyaman/rust-anything",
-          "stargazers_count": 7704,
+          "stargazers_count": 8503,
           "language": "Rust",
           "description": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
           "created_at": "2026-11-16T12:10:36Z",
@@ -44,438 +44,11 @@
             "rust",
             "typescript"
           ]
-        },
-        {
-          "full_name": "krisgfx9/Wireless-Device-Battery-Monitor",
-          "html_url": "https://github.com/krisgfx9/Wireless-Device-Battery-Monitor",
-          "stargazers_count": 5982,
-          "language": "C++",
-          "description": "Show the battery level of wireless mice, headsets, keyboards and controllers on the Windows 10/11 taskbar. Lightweight tray app, no vendor software needed. Supports Logitech, Razer, SteelSeries, Corsair, HyperX, Glorious, PS4/PS5 DualSense, Xbox and Bluetooth devices.",
-          "created_at": "2026-11-16T19:28:29Z",
-          "topics": []
-        },
-        {
-          "full_name": "bookwjitchieni1986/blender-ai-mcp-addon",
-          "html_url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
-          "stargazers_count": 2737,
-          "language": null,
-          "description": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
-          "created_at": "2026-11-19T14:43:10Z",
-          "topics": [
-            "ai-agents",
-            "ai-assistant",
-            "blender",
-            "blender-addon",
-            "blender-ai",
-            "blender-automation",
-            "blender-mcp",
-            "blender-plugin",
-            "blender-scripting",
-            "bpy",
-            "chatgpt",
-            "claude",
-            "gemini",
-            "llm",
-            "mcp",
-            "mcp-for-blender",
-            "mcp-server",
-            "model-context-protocol",
-            "ollama",
-            "opencode"
-          ]
-        },
-        {
-          "full_name": "gylive/google-ultra",
-          "html_url": "https://github.com/gylive/google-ultra",
-          "stargazers_count": 2657,
-          "language": "Python",
-          "description": null,
-          "created_at": "2026-11-17T10:21:54Z",
-          "topics": []
-        },
-        {
-          "full_name": "Hut-hzf/ung220z-tool",
-          "html_url": "https://github.com/Hut-hzf/ung220z-tool",
-          "stargazers_count": 2293,
-          "language": "Python",
-          "description": "ung220z-tool 是一个针对 UNG220Z，另含中兴/烽火/华为/九联多厂商适配、固件指纹识别与分家族排障建议的一键凭据提取工具，仅限在你自己的设备上用于找回忘记的管理密码、迁移宽带配置或安全自查。",
-          "created_at": "2026-11-15T11:16:46Z",
-          "topics": []
-        },
-        {
-          "full_name": "iamajmeena/neonclipping",
-          "html_url": "https://github.com/iamajmeena/neonclipping",
-          "stargazers_count": 1939,
-          "language": "Python",
-          "description": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
-          "created_at": "2026-11-19T10:00:43Z",
-          "topics": [
-            "ai-video-clipper",
-            "clipping",
-            "faster-whisper",
-            "ffmpeg",
-            "gameplay-clipper",
-            "local-llm",
-            "ollama",
-            "open-source-video-editor",
-            "opusclip-alternative",
-            "shorts",
-            "twitch-clips",
-            "vertical-video",
-            "video",
-            "whisper",
-            "youtube-shorts-generator",
-            "yt-dlp"
-          ]
-        },
-        {
-          "full_name": "sybil-solutions/inference-optimisation-skill",
-          "html_url": "https://github.com/sybil-solutions/inference-optimisation-skill",
-          "stargazers_count": 1834,
-          "language": "Python",
-          "description": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization",
-          "created_at": "2026-11-16T18:40:04Z",
-          "topics": [
-            "agent-skill",
-            "benchmarking",
-            "claude-code",
-            "inference",
-            "llm",
-            "speculative-decoding"
-          ]
-        },
-        {
-          "full_name": "joshpuckett/allo",
-          "html_url": "https://github.com/joshpuckett/allo",
-          "stargazers_count": 1415,
-          "language": "Python",
-          "description": "Allo is your friendly neighborhood typeface, free and open source",
-          "created_at": "2026-11-15T17:33:42Z",
-          "topics": []
-        },
-        {
-          "full_name": "hatsunemiku-ai/google-one-tools",
-          "html_url": "https://github.com/hatsunemiku-ai/google-one-tools",
-          "stargazers_count": 1196,
-          "language": "Python",
-          "description": null,
-          "created_at": "2026-11-20T22:12:47Z",
-          "topics": []
-        }
-      ]
-    },
-    {
-      "title": "Python",
-      "repos": [
-        {
-          "full_name": "ItsNotRexed/Leonida",
-          "html_url": "https://github.com/ItsNotRexed/Leonida",
-          "stargazers_count": 9680,
-          "language": "Python",
-          "description": "Leonida Is A Native PC Recompilation Of The Xbox Version Of Grand Theft Auto 6",
-          "created_at": "2026-11-20T20:07:13Z",
-          "topics": []
-        },
-        {
-          "full_name": "gylive/google-ultra",
-          "html_url": "https://github.com/gylive/google-ultra",
-          "stargazers_count": 2657,
-          "language": "Python",
-          "description": null,
-          "created_at": "2026-11-17T10:21:54Z",
-          "topics": []
-        },
-        {
-          "full_name": "Hut-hzf/ung220z-tool",
-          "html_url": "https://github.com/Hut-hzf/ung220z-tool",
-          "stargazers_count": 2294,
-          "language": "Python",
-          "description": "ung220z-tool 是一个针对 UNG220Z，另含中兴/烽火/华为/九联多厂商适配、固件指纹识别与分家族排障建议的一键凭据提取工具，仅限在你自己的设备上用于找回忘记的管理密码、迁移宽带配置或安全自查。",
-          "created_at": "2026-11-15T11:16:46Z",
-          "topics": []
-        },
-        {
-          "full_name": "iamajmeena/neonclipping",
-          "html_url": "https://github.com/iamajmeena/neonclipping",
-          "stargazers_count": 1939,
-          "language": "Python",
-          "description": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
-          "created_at": "2026-11-19T10:00:43Z",
-          "topics": [
-            "ai-video-clipper",
-            "clipping",
-            "faster-whisper",
-            "ffmpeg",
-            "gameplay-clipper",
-            "local-llm",
-            "ollama",
-            "open-source-video-editor",
-            "opusclip-alternative",
-            "shorts",
-            "twitch-clips",
-            "vertical-video",
-            "video",
-            "whisper",
-            "youtube-shorts-generator",
-            "yt-dlp"
-          ]
-        },
-        {
-          "full_name": "sybil-solutions/inference-optimisation-skill",
-          "html_url": "https://github.com/sybil-solutions/inference-optimisation-skill",
-          "stargazers_count": 1834,
-          "language": "Python",
-          "description": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization",
-          "created_at": "2026-11-16T18:40:04Z",
-          "topics": [
-            "agent-skill",
-            "benchmarking",
-            "claude-code",
-            "inference",
-            "llm",
-            "speculative-decoding"
-          ]
-        }
-      ]
-    },
-    {
-      "title": "TypeScript",
-      "repos": [
-        {
-          "full_name": "replit/datacat",
-          "html_url": "https://github.com/replit/datacat",
-          "stargazers_count": 530,
-          "language": "TypeScript",
-          "description": "Self-hosted observability: metrics, logs, traces, dashboards and alerts. Stores data in PostgreSQL or ClickHouse. Accepts OpenTelemetry data.",
-          "created_at": "2026-11-17T02:51:06Z",
-          "topics": [
-            "alerting",
-            "apm",
-            "clickhouse",
-            "dashboards",
-            "logging",
-            "metrics",
-            "monitoring",
-            "observability",
-            "opentelemetry",
-            "postgresql",
-            "self-hosted",
-            "tracing"
-          ]
-        },
-        {
-          "full_name": "INK-Q/agy-fast",
-          "html_url": "https://github.com/INK-Q/agy-fast",
-          "stargazers_count": 311,
-          "language": "TypeScript",
-          "description": "Non-invasive MCP accelerator plugin for Google Antigravity (CLI/Desktop/IDE): cuts LLM turns (-34%), token quota (-31%), and upload traffic (-40%) without affecting native UI or diffs.",
-          "created_at": "2026-11-19T04:58:46Z",
-          "topics": [
-            "ai-agent",
-            "ai-coding",
-            "antigravity",
-            "antigravity-cli",
-            "antigravity-ide",
-            "antigravity-plugins",
-            "coding-agent",
-            "context-optimization",
-            "developer-productivity",
-            "developer-tools",
-            "gemini",
-            "google-antigravity",
-            "latency-optimization",
-            "mcp",
-            "mcp-plugin",
-            "mcp-server",
-            "model-context-protocol",
-            "performance",
-            "plugin",
-            "token-optimization"
-          ]
-        },
-        {
-          "full_name": "JimLiu/open-artifact",
-          "html_url": "https://github.com/JimLiu/open-artifact",
-          "stargazers_count": 287,
-          "language": "TypeScript",
-          "description": "Open, agent- and model-agnostic artifacts, all saved locally as plain files — edit, comment on, and export slides, UI designs, design systems, whiteboards, sheets, dashboards, docs, and motion.",
-          "created_at": "2026-11-17T02:25:25Z",
-          "topics": [
-            "agent-skills",
-            "ai-agents",
-            "artifacts",
-            "claude-artifacts",
-            "claude-code",
-            "claude-design",
-            "codex",
-            "coding-agent",
-            "cursor",
-            "design-tools",
-            "dsh-plugin",
-            "dsh-plugins",
-            "github-copilot",
-            "local-first",
-            "mcp",
-            "mcp-apps"
-          ]
-        },
-        {
-          "full_name": "w01fb0ss/PiBot",
-          "html_url": "https://github.com/w01fb0ss/PiBot",
-          "stargazers_count": 283,
-          "language": "TypeScript",
-          "description": "Open-source, local-first AI agent team for your desktop: multi-agent group chats, computer use, browser, MCP, routines and approvals. macOS, Windows, Linux + Android. Built on pi.",
-          "created_at": "2026-11-21T06:54:24Z",
-          "topics": [
-            "agent",
-            "ai-agent",
-            "ai-agents",
-            "ai-assistant",
-            "android",
-            "automation",
-            "chatgpt",
-            "coding-agent",
-            "computer-use",
-            "desktop-app",
-            "electron",
-            "llm",
-            "local-first",
-            "mcp",
-            "multi-agent",
-            "ollama",
-            "openai",
-            "privacy",
-            "self-hosted",
-            "typescript"
-          ]
-        },
-        {
-          "full_name": "johnlindquist/pi-emphasis",
-          "html_url": "https://github.com/johnlindquist/pi-emphasis",
-          "stargazers_count": 273,
-          "language": "TypeScript",
-          "description": "Pi extension: colored status pills with icons, labeled headings and colored bold, so assistant replies are easy to scan",
-          "created_at": "2026-11-15T16:39:09Z",
-          "topics": [
-            "pi",
-            "pi-package"
-          ]
-        }
-      ]
-    },
-    {
-      "title": "JavaScript",
-      "repos": [
-        {
-          "full_name": "siliconjungle/shapeshift-labs-ink-studio",
-          "html_url": "https://github.com/siliconjungle/shapeshift-labs-ink-studio",
-          "stargazers_count": 1007,
-          "language": "JavaScript",
-          "description": "Sculpting, animation and simulation toolkit for pixel-art Gaussian splats",
-          "created_at": "2026-11-16T07:44:00Z",
-          "topics": []
-        },
-        {
-          "full_name": "nilbuild/stick-scene",
-          "html_url": "https://github.com/nilbuild/stick-scene",
-          "stargazers_count": 574,
-          "language": "JavaScript",
-          "description": "Skill to draw stick figure animated visuals",
-          "created_at": "2026-11-15T00:17:40Z",
-          "topics": []
-        },
-        {
-          "full_name": "CoderL98/hghub-plugins",
-          "html_url": "https://github.com/CoderL98/hghub-plugins",
-          "stargazers_count": 428,
-          "language": "JavaScript",
-          "description": "HGhub HPP 1.0 单文件插件与订阅源",
-          "created_at": "2026-11-16T03:33:57Z",
-          "topics": []
-        },
-        {
-          "full_name": "duwqijlk/google-trial-tool",
-          "html_url": "https://github.com/duwqijlk/google-trial-tool",
-          "stargazers_count": 415,
-          "language": "JavaScript",
-          "description": null,
-          "created_at": "2026-11-19T11:06:16Z",
-          "topics": []
-        },
-        {
-          "full_name": "diego3g/craft",
-          "html_url": "https://github.com/diego3g/craft",
-          "stargazers_count": 395,
-          "language": "JavaScript",
-          "description": "Design skills for AI agents: /craft-setup writes your design brief, /craft designs screens with every state from your design system and reviews them. Works with Paper, pen.dev, Figma or HTML.",
-          "created_at": "2026-11-15T20:08:15Z",
-          "topics": [
-            "agent-skills",
-            "claude-code",
-            "claude-code-plugin",
-            "design-system",
-            "figma",
-            "paper",
-            "ui-design"
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Rust",
-      "repos": [
-        {
-          "full_name": "erkamyaman/rust-anything",
-          "html_url": "https://github.com/erkamyaman/rust-anything",
-          "stargazers_count": 7704,
-          "language": "Rust",
-          "description": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
-          "created_at": "2026-11-16T12:10:36Z",
-          "topics": [
-            "agent-skills",
-            "claude-code",
-            "cli",
-            "code-migration",
-            "codex",
-            "ffi",
-            "golang",
-            "java",
-            "javascript",
-            "mcp",
-            "migration",
-            "napi",
-            "performance",
-            "porting",
-            "pyo3",
-            "python",
-            "rewrite",
-            "ruby",
-            "rust",
-            "typescript"
-          ]
-        },
-        {
-          "full_name": "omonkeyz/xbox-emulator",
-          "html_url": "https://github.com/omonkeyz/xbox-emulator",
-          "stargazers_count": 1038,
-          "language": "Rust",
-          "description": "Progress notes for running Xbox Series X|S builds on PC (TomBox + rage9)",
-          "created_at": "2026-11-21T08:08:39Z",
-          "topics": []
-        },
-        {
-          "full_name": "Lemxy/WinRust",
-          "html_url": "https://github.com/Lemxy/WinRust",
-          "stargazers_count": 1029,
-          "language": "Rust",
-          "description": "Windows shell replacement in Rust: taskbar, file manager, NTFS search, task manager, disk cleaner. One installer exe.",
-          "created_at": "2026-11-17T14:27:06Z",
-          "topics": []
         },
         {
           "full_name": "EL4CTEO/fast-anything",
           "html_url": "https://github.com/EL4CTEO/fast-anything",
-          "stargazers_count": 703,
+          "stargazers_count": 2786,
           "language": "Rust",
           "description": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
           "created_at": "2026-11-21T14:40:27Z",
@@ -503,13 +76,547 @@
           ]
         },
         {
-          "full_name": "davidondrej/superbot",
-          "html_url": "https://github.com/davidondrej/superbot",
-          "stargazers_count": 409,
+          "full_name": "bookwjitchieni1986/blender-ai-mcp-addon",
+          "html_url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
+          "stargazers_count": 2760,
+          "language": null,
+          "description": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
+          "created_at": "2026-11-19T14:43:10Z",
+          "topics": [
+            "ai-agents",
+            "ai-assistant",
+            "blender",
+            "blender-addon",
+            "blender-ai",
+            "blender-automation",
+            "blender-mcp",
+            "blender-plugin",
+            "blender-scripting",
+            "bpy",
+            "chatgpt",
+            "claude",
+            "gemini",
+            "llm",
+            "mcp",
+            "mcp-for-blender",
+            "mcp-server",
+            "model-context-protocol",
+            "ollama",
+            "opencode"
+          ]
+        },
+        {
+          "full_name": "iamajmeena/neonclipping",
+          "html_url": "https://github.com/iamajmeena/neonclipping",
+          "stargazers_count": 2246,
+          "language": "Python",
+          "description": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
+          "created_at": "2026-11-19T10:00:43Z",
+          "topics": [
+            "ai-video-clipper",
+            "clipping",
+            "faster-whisper",
+            "ffmpeg",
+            "gameplay-clipper",
+            "local-llm",
+            "ollama",
+            "open-source-video-editor",
+            "opusclip-alternative",
+            "shorts",
+            "twitch-clips",
+            "vertical-video",
+            "video",
+            "whisper",
+            "youtube-shorts-generator",
+            "yt-dlp"
+          ]
+        },
+        {
+          "full_name": "sybil-solutions/inference-optimisation-skill",
+          "html_url": "https://github.com/sybil-solutions/inference-optimisation-skill",
+          "stargazers_count": 2056,
+          "language": "Python",
+          "description": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization",
+          "created_at": "2026-11-16T18:40:04Z",
+          "topics": [
+            "agent-skill",
+            "benchmarking",
+            "claude-code",
+            "inference",
+            "llm",
+            "speculative-decoding"
+          ]
+        },
+        {
+          "full_name": "omonkeyz/xbox-emulator",
+          "html_url": "https://github.com/omonkeyz/xbox-emulator",
+          "stargazers_count": 1508,
           "language": "Rust",
-          "description": "Open-source, self-hosted Grok Bot alternative",
-          "created_at": "2026-11-15T17:30:43Z",
+          "description": "Progress notes for running Xbox Series X|S builds on PC (TomBox + rage9)",
+          "created_at": "2026-11-21T08:08:39Z",
           "topics": []
+        },
+        {
+          "full_name": "R0Y00/Xbox2Windows",
+          "html_url": "https://github.com/R0Y00/Xbox2Windows",
+          "stargazers_count": 1397,
+          "language": "Python",
+          "description": "Static recompilation research for Xbox Series X|S software on x64 Windows, with source-built CPU and GPU tests. Full-game startup is unverified.",
+          "created_at": "2026-11-20T17:43:52Z",
+          "topics": [
+            "d3d12",
+            "directx-raytracing",
+            "scarlett",
+            "static-recompilation",
+            "windows",
+            "xbox",
+            "xbox-series-x"
+          ]
+        },
+        {
+          "full_name": "Lemxy/WinRust",
+          "html_url": "https://github.com/Lemxy/WinRust",
+          "stargazers_count": 1324,
+          "language": "Rust",
+          "description": "Windows shell replacement in Rust: taskbar, file manager, NTFS search, task manager, disk cleaner. One installer exe.",
+          "created_at": "2026-11-17T14:27:06Z",
+          "topics": []
+        },
+        {
+          "full_name": "pierridotite/mobile-agent-testers",
+          "html_url": "https://github.com/pierridotite/mobile-agent-testers",
+          "stargazers_count": 1213,
+          "language": "Python",
+          "description": "20 AI testers on 20 different phones, in parallel, on GitHub's free runners: Claude Code agents on iOS Simulators and Android emulators that find broken flows, translation, layout and accessibility bugs",
+          "created_at": "2026-11-16T19:11:44Z",
+          "topics": [
+            "accessibility-testing",
+            "ai-agents",
+            "ai-testing",
+            "android",
+            "android-emulator",
+            "claude",
+            "claude-code",
+            "e2e-testing",
+            "exploratory-testing",
+            "expo",
+            "flutter",
+            "github-actions",
+            "ios",
+            "ios-simulator",
+            "llm",
+            "mobile-testing",
+            "qa",
+            "react-native",
+            "test-automation",
+            "ui-testing"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Python",
+      "repos": [
+        {
+          "full_name": "ItsNotRexed/Leonida",
+          "html_url": "https://github.com/ItsNotRexed/Leonida",
+          "stargazers_count": 20214,
+          "language": "Python",
+          "description": "Leonida Is A Native PC Recompilation Of The Xbox Version Of Grand Theft Auto 6",
+          "created_at": "2026-11-20T20:07:13Z",
+          "topics": []
+        },
+        {
+          "full_name": "iamajmeena/neonclipping",
+          "html_url": "https://github.com/iamajmeena/neonclipping",
+          "stargazers_count": 2246,
+          "language": "Python",
+          "description": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
+          "created_at": "2026-11-19T10:00:43Z",
+          "topics": [
+            "ai-video-clipper",
+            "clipping",
+            "faster-whisper",
+            "ffmpeg",
+            "gameplay-clipper",
+            "local-llm",
+            "ollama",
+            "open-source-video-editor",
+            "opusclip-alternative",
+            "shorts",
+            "twitch-clips",
+            "vertical-video",
+            "video",
+            "whisper",
+            "youtube-shorts-generator",
+            "yt-dlp"
+          ]
+        },
+        {
+          "full_name": "sybil-solutions/inference-optimisation-skill",
+          "html_url": "https://github.com/sybil-solutions/inference-optimisation-skill",
+          "stargazers_count": 2056,
+          "language": "Python",
+          "description": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization",
+          "created_at": "2026-11-16T18:40:04Z",
+          "topics": [
+            "agent-skill",
+            "benchmarking",
+            "claude-code",
+            "inference",
+            "llm",
+            "speculative-decoding"
+          ]
+        },
+        {
+          "full_name": "R0Y00/Xbox2Windows",
+          "html_url": "https://github.com/R0Y00/Xbox2Windows",
+          "stargazers_count": 1397,
+          "language": "Python",
+          "description": "Static recompilation research for Xbox Series X|S software on x64 Windows, with source-built CPU and GPU tests. Full-game startup is unverified.",
+          "created_at": "2026-11-20T17:43:52Z",
+          "topics": [
+            "d3d12",
+            "directx-raytracing",
+            "scarlett",
+            "static-recompilation",
+            "windows",
+            "xbox",
+            "xbox-series-x"
+          ]
+        },
+        {
+          "full_name": "pierridotite/mobile-agent-testers",
+          "html_url": "https://github.com/pierridotite/mobile-agent-testers",
+          "stargazers_count": 1213,
+          "language": "Python",
+          "description": "20 AI testers on 20 different phones, in parallel, on GitHub's free runners: Claude Code agents on iOS Simulators and Android emulators that find broken flows, translation, layout and accessibility bugs",
+          "created_at": "2026-11-16T19:11:44Z",
+          "topics": [
+            "accessibility-testing",
+            "ai-agents",
+            "ai-testing",
+            "android",
+            "android-emulator",
+            "claude",
+            "claude-code",
+            "e2e-testing",
+            "exploratory-testing",
+            "expo",
+            "flutter",
+            "github-actions",
+            "ios",
+            "ios-simulator",
+            "llm",
+            "mobile-testing",
+            "qa",
+            "react-native",
+            "test-automation",
+            "ui-testing"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "TypeScript",
+      "repos": [
+        {
+          "full_name": "INK-Q/agy-fast",
+          "html_url": "https://github.com/INK-Q/agy-fast",
+          "stargazers_count": 732,
+          "language": "TypeScript",
+          "description": "Non-invasive MCP accelerator plugin for Google Antigravity (CLI/Desktop/IDE): cuts LLM turns (-34%), token quota (-31%), and upload traffic (-40%) without affecting native UI or diffs.",
+          "created_at": "2026-11-19T04:58:46Z",
+          "topics": [
+            "ai-agent",
+            "ai-coding",
+            "antigravity",
+            "antigravity-cli",
+            "antigravity-ide",
+            "antigravity-plugins",
+            "coding-agent",
+            "context-optimization",
+            "developer-productivity",
+            "developer-tools",
+            "gemini",
+            "google-antigravity",
+            "latency-optimization",
+            "mcp",
+            "mcp-plugin",
+            "mcp-server",
+            "model-context-protocol",
+            "performance",
+            "plugin",
+            "token-optimization"
+          ]
+        },
+        {
+          "full_name": "replit/datacat",
+          "html_url": "https://github.com/replit/datacat",
+          "stargazers_count": 585,
+          "language": "TypeScript",
+          "description": "Self-hosted observability: metrics, logs, traces, dashboards and alerts. Stores data in PostgreSQL or ClickHouse. Accepts OpenTelemetry data.",
+          "created_at": "2026-11-17T02:51:06Z",
+          "topics": [
+            "alerting",
+            "apm",
+            "clickhouse",
+            "dashboards",
+            "logging",
+            "metrics",
+            "monitoring",
+            "observability",
+            "opentelemetry",
+            "postgresql",
+            "self-hosted",
+            "tracing"
+          ]
+        },
+        {
+          "full_name": "w01fb0ss/PiBot",
+          "html_url": "https://github.com/w01fb0ss/PiBot",
+          "stargazers_count": 477,
+          "language": "TypeScript",
+          "description": "Open-source, local-first AI agent team for your desktop: multi-agent group chats, computer use, browser, MCP, routines and approvals. macOS, Windows, Linux + Android. Built on pi.",
+          "created_at": "2026-11-21T06:54:24Z",
+          "topics": [
+            "agent",
+            "ai-agent",
+            "ai-agents",
+            "ai-assistant",
+            "android",
+            "automation",
+            "chatgpt",
+            "coding-agent",
+            "computer-use",
+            "desktop-app",
+            "electron",
+            "llm",
+            "local-first",
+            "mcp",
+            "multi-agent",
+            "ollama",
+            "openai",
+            "privacy",
+            "self-hosted",
+            "typescript"
+          ]
+        },
+        {
+          "full_name": "JimLiu/open-artifact",
+          "html_url": "https://github.com/JimLiu/open-artifact",
+          "stargazers_count": 415,
+          "language": "TypeScript",
+          "description": "Open, agent- and model-agnostic artifacts, all saved locally as plain files — edit, comment on, and export slides, UI designs, design systems, whiteboards, sheets, dashboards, docs, and motion.",
+          "created_at": "2026-11-17T02:25:25Z",
+          "topics": [
+            "agent-skills",
+            "ai-agents",
+            "artifacts",
+            "claude-artifacts",
+            "claude-code",
+            "claude-design",
+            "codex",
+            "coding-agent",
+            "cursor",
+            "design-tools",
+            "dsh-plugin",
+            "dsh-plugins",
+            "github-copilot",
+            "local-first",
+            "mcp",
+            "mcp-apps"
+          ]
+        },
+        {
+          "full_name": "sshkeda/minecraft-server-on-orange-cloud",
+          "html_url": "https://github.com/sshkeda/minecraft-server-on-orange-cloud",
+          "stargazers_count": 410,
+          "language": "TypeScript",
+          "description": "Run a Minecraft Java server entirely on Cloudflare. Sleeps when nobody's playing.",
+          "created_at": "2026-11-21T02:36:03Z",
+          "topics": [
+            "bun",
+            "cloudflare",
+            "cloudflare-containers",
+            "cloudflare-workers",
+            "durable-objects",
+            "effect",
+            "minecraft",
+            "minecraft-server",
+            "papermc",
+            "spectrum",
+            "typescript"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "JavaScript",
+      "repos": [
+        {
+          "full_name": "siliconjungle/shapeshift-labs-ink-studio",
+          "html_url": "https://github.com/siliconjungle/shapeshift-labs-ink-studio",
+          "stargazers_count": 1058,
+          "language": "JavaScript",
+          "description": "Sculpting, animation and simulation toolkit for pixel-art Gaussian splats",
+          "created_at": "2026-11-16T07:44:00Z",
+          "topics": []
+        },
+        {
+          "full_name": "CoderL98/hghub-plugins",
+          "html_url": "https://github.com/CoderL98/hghub-plugins",
+          "stargazers_count": 483,
+          "language": "JavaScript",
+          "description": "HGhub HPP 1.0 单文件插件与订阅源",
+          "created_at": "2026-11-16T03:33:57Z",
+          "topics": []
+        },
+        {
+          "full_name": "nkjDSLcvanv/antigravity-codex-theme",
+          "html_url": "https://github.com/nkjDSLcvanv/antigravity-codex-theme",
+          "stargazers_count": 456,
+          "language": "JavaScript",
+          "description": "Google Antigravity 桌面端增强插件：Codex 昼夜双主题、原生设置页与一键热更新、1,900+ 中文汉化、四态状态灯与实时用量监控（含旁路提问 / SSH 远端）、可选 Tab 下一句预测。不改安装包，模块化按需安装。",
+          "created_at": "2026-11-17T08:38:53Z",
+          "topics": [
+            "antigravity",
+            "chinese",
+            "codex-theme",
+            "localization",
+            "theme",
+            "token-usage"
+          ]
+        },
+        {
+          "full_name": "duwqijlk/google-trial-tool",
+          "html_url": "https://github.com/duwqijlk/google-trial-tool",
+          "stargazers_count": 442,
+          "language": "JavaScript",
+          "description": null,
+          "created_at": "2026-11-19T11:06:16Z",
+          "topics": []
+        },
+        {
+          "full_name": "staryone/motlab",
+          "html_url": "https://github.com/staryone/motlab",
+          "stargazers_count": 426,
+          "language": "JavaScript",
+          "description": "Video as code: canvas scenes rendered with WebCodecs in headless Chrome, a review viewer, and agent skills that build the video from your references.",
+          "created_at": "2026-11-16T13:45:47Z",
+          "topics": [
+            "agent-skills",
+            "canvas",
+            "claude-code",
+            "headless-chrome",
+            "motion-graphics",
+            "video",
+            "webcodecs"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Rust",
+      "repos": [
+        {
+          "full_name": "erkamyaman/rust-anything",
+          "html_url": "https://github.com/erkamyaman/rust-anything",
+          "stargazers_count": 8503,
+          "language": "Rust",
+          "description": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
+          "created_at": "2026-11-16T12:10:36Z",
+          "topics": [
+            "agent-skills",
+            "claude-code",
+            "cli",
+            "code-migration",
+            "codex",
+            "ffi",
+            "golang",
+            "java",
+            "javascript",
+            "mcp",
+            "migration",
+            "napi",
+            "performance",
+            "porting",
+            "pyo3",
+            "python",
+            "rewrite",
+            "ruby",
+            "rust",
+            "typescript"
+          ]
+        },
+        {
+          "full_name": "EL4CTEO/fast-anything",
+          "html_url": "https://github.com/EL4CTEO/fast-anything",
+          "stargazers_count": 2786,
+          "language": "Rust",
+          "description": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
+          "created_at": "2026-11-21T14:40:27Z",
+          "topics": [
+            "agent-skills",
+            "ai-agents",
+            "claude-code",
+            "claude-code-plugin",
+            "codex",
+            "developer-tools",
+            "ffi",
+            "mcp",
+            "mcp-server",
+            "napi-rs",
+            "nodejs",
+            "optimization",
+            "performance",
+            "profiler",
+            "pyo3",
+            "python",
+            "rewrite-it-in-rust",
+            "ruby",
+            "rust",
+            "typescript"
+          ]
+        },
+        {
+          "full_name": "omonkeyz/xbox-emulator",
+          "html_url": "https://github.com/omonkeyz/xbox-emulator",
+          "stargazers_count": 1508,
+          "language": "Rust",
+          "description": "Progress notes for running Xbox Series X|S builds on PC (TomBox + rage9)",
+          "created_at": "2026-11-21T08:08:39Z",
+          "topics": []
+        },
+        {
+          "full_name": "Lemxy/WinRust",
+          "html_url": "https://github.com/Lemxy/WinRust",
+          "stargazers_count": 1324,
+          "language": "Rust",
+          "description": "Windows shell replacement in Rust: taskbar, file manager, NTFS search, task manager, disk cleaner. One installer exe.",
+          "created_at": "2026-11-17T14:27:06Z",
+          "topics": []
+        },
+        {
+          "full_name": "scarletkc/colab-playground",
+          "html_url": "https://github.com/scarletkc/colab-playground",
+          "stargazers_count": 419,
+          "language": "Rust",
+          "description": "A desktop app for the Google Colab CLI: accounts, GPU sessions with cost guards, port forwarding and plugins.",
+          "created_at": "2026-11-16T09:03:25Z",
+          "topics": [
+            "colab",
+            "desktop-app",
+            "gguf",
+            "google-colab",
+            "gpu",
+            "gpui",
+            "huggingface",
+            "llama-cpp",
+            "port-forwarding",
+            "rust",
+            "wsl"
+          ]
         }
       ]
     },
@@ -517,100 +624,75 @@
       "title": "Go",
       "repos": [
         {
-          "full_name": "TurtleReside/Gemini-Config-Checker-",
-          "html_url": "https://github.com/TurtleReside/Gemini-Config-Checker-",
-          "stargazers_count": 469,
-          "language": "Go",
-          "description": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android) ",
-          "created_at": "2026-11-15T16:46:04Z",
-          "topics": [
-            "ai",
-            "ai-search",
-            "aichecker",
-            "chatgpt",
-            "cli",
-            "config-checker",
-            "gemeni",
-            "gemeni-checker",
-            "generative-ai",
-            "lim-seo",
-            "llm",
-            "mcp-server",
-            "nextjs",
-            "open-code",
-            "seo-checker",
-            "seo-tool",
-            "typescript"
-          ]
-        },
-        {
           "full_name": "prusa3d/prusa-connect",
           "html_url": "https://github.com/prusa3d/prusa-connect",
-          "stargazers_count": 282,
+          "stargazers_count": 294,
           "language": "Go",
           "description": "Prusa Connect: a local server for your printers",
           "created_at": "2026-11-17T08:54:51Z",
           "topics": []
         },
         {
-          "full_name": "xyc999-ai/go-bot",
-          "html_url": "https://github.com/xyc999-ai/go-bot",
-          "stargazers_count": 236,
+          "full_name": "txchen/govault",
+          "html_url": "https://github.com/txchen/govault",
+          "stargazers_count": 182,
           "language": "Go",
-          "description": "Go implementation of DeepSeek Harness and self-hosted personal agent.",
-          "created_at": "2026-11-15T18:05:59Z",
+          "description": "Fast, lightweight, zero-CGO native desktop client for Vaultwarden/Bitwarden in Go and NSGo",
+          "created_at": "2026-11-20T17:59:55Z",
           "topics": []
         },
         {
-          "full_name": "kokarai/premiere-elements",
-          "html_url": "https://github.com/kokarai/premiere-elements",
+          "full_name": "vulnix0x4/a-better-antivirus",
+          "html_url": "https://github.com/vulnix0x4/a-better-antivirus",
           "stargazers_count": 154,
           "language": "Go",
-          "description": "Premiere Elements: Story-First Home Video Editing Workflow",
-          "created_at": "2026-11-15T20:27:07Z",
+          "description": "Catches infostealers in the act on Windows: plants fake passwords, wallets and app data that only malware would read, and freezes whatever touches them.",
+          "created_at": "2026-11-17T03:19:34Z",
           "topics": [
-            "adobe",
-            "adobe-premiere-pro-windows-download",
-            "after-effects",
-            "cep-extension",
-            "color-grading",
-            "extendscript-es6",
-            "illustrator-2023",
-            "jsx",
-            "photoshop",
-            "serial-number",
-            "uxp",
-            "zxp"
+            "antivirus",
+            "blue-team",
+            "canary-tokens",
+            "cli",
+            "deception",
+            "golang",
+            "honeypot",
+            "infostealer",
+            "malware-detection",
+            "security",
+            "stealer",
+            "windows",
+            "windows-security"
           ]
         },
         {
-          "full_name": "frandymbangwei-ux/spam-mail-detector-ml",
-          "html_url": "https://github.com/frandymbangwei-ux/spam-mail-detector-ml",
-          "stargazers_count": 154,
+          "full_name": "geerlingguy/chronytop",
+          "html_url": "https://github.com/geerlingguy/chronytop",
+          "stargazers_count": 153,
           "language": "Go",
-          "description": "Spam Mail Detector ML: Machine Learning Email Classification and Spam Detection",
-          "created_at": "2026-11-15T20:43:26Z",
+          "description": "A TUI for chrony NTP time server monitoring",
+          "created_at": "2026-11-18T02:51:38Z",
+          "topics": []
+        },
+        {
+          "full_name": "piyushverse001/quantconnect-lean-selvon-research",
+          "html_url": "https://github.com/piyushverse001/quantconnect-lean-selvon-research",
+          "stargazers_count": 144,
+          "language": "Go",
+          "description": "Quantconnect Lean Selvon Research: structured environment for strategy experiments and backtesting",
+          "created_at": "2026-11-18T14:21:03Z",
           "topics": [
-            "accuracy-score",
-            "algorithm",
-            "artificial-intelligence-algorithms",
-            "artificial-intelligence-models",
-            "artificial-intelligence-projects",
-            "bash-script",
-            "detectany-kind",
-            "logistic-regression",
-            "nlp-machine-learning",
-            "numpy",
-            "spam",
-            "spam-classification",
-            "spam-detection",
-            "spam-filtering",
-            "spam-mail",
-            "spam-mail-classifier",
-            "spam-protection",
-            "tensorflow",
-            "tensorflow2",
-            "tfidf-vectorizer"
+            "backtesting",
+            "c-sharp",
+            "crypto",
+            "cryptocurrency",
+            "finance",
+            "fintech",
+            "forex",
+            "investment",
+            "market-data",
+            "options",
+            "quantitative-finance",
+            "technical-analysis"
           ]
         }
       ]
@@ -619,51 +701,51 @@
   "topics": [
     {
       "name": "claude-code",
-      "count": 7
+      "count": 10
     },
     {
       "name": "mcp",
+      "count": 8
+    },
+    {
+      "name": "ai-agents",
       "count": 7
     },
     {
       "name": "agent-skills",
-      "count": 5
+      "count": 6
     },
     {
       "name": "typescript",
-      "count": 5
+      "count": 6
     },
     {
       "name": "llm",
-      "count": 5
+      "count": 6
     },
     {
       "name": "codex",
-      "count": 4
+      "count": 5
     },
     {
       "name": "performance",
-      "count": 4
+      "count": 5
     },
     {
-      "name": "ai-agents",
-      "count": 4
-    },
-    {
-      "name": "mcp-server",
-      "count": 4
-    },
-    {
-      "name": "ollama",
-      "count": 4
-    },
-    {
-      "name": "cli",
-      "count": 3
+      "name": "rust",
+      "count": 5
     },
     {
       "name": "ffi",
-      "count": 3
+      "count": 4
+    },
+    {
+      "name": "pyo3",
+      "count": 4
+    },
+    {
+      "name": "python",
+      "count": 4
     }
   ]
 }
