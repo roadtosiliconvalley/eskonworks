@@ -1,0 +1,26 @@
+body {
+  background:
+    radial-gradient(circle at 16% 0%, rgba(52, 211, 153, .12), transparent 42%),
+    radial-gradient(circle at 84% 10%, rgba(59, 130, 246, .15), transparent 42%),
+    var(--mini-bg);
+}
+.disclaimer { margin: 0 0 16px; padding: 9px 13px; border: 1px solid rgba(212, 160, 23, .4); border-radius: 10px; background: rgba(212, 160, 23, .08); color: #e3b341; font-size: 12px; }
+.inputs { display: grid; grid-template-columns: 1fr 1fr auto; gap: 12px; align-items: end; }
+.field { display: grid; gap: 7px; }
+.field label { font-size: 12px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; color: var(--mini-muted); }
+.inputs button { height: 45px; padding: 0 20px; }
+.result-panel { margin-top: 16px; text-align: center; }
+.value { display: grid; gap: 2px; }
+.value strong { color: #e3b341; font-size: clamp(44px, 10vw, 64px); line-height: 1; }
+.value span { color: var(--mini-muted); font-size: 11px; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; }
+.category { margin: 14px 0 24px; font-size: 19px; font-weight: 800; }
+.scale { max-width: 520px; margin: 0 auto; }
+.scale-bar { position: relative; height: 14px; border-radius: 999px; background: linear-gradient(90deg, #60a5fa 0 33%, #34d399 33% 55%, #fbbf24 55% 78%, #fb7185 78% 100%); }
+.marker { position: absolute; top: -6px; left: 0; width: 4px; height: 26px; border-radius: 3px; background: #fff; box-shadow: 0 0 8px rgba(255, 255, 255, .8); transform: translateX(-2px); transition: left .3s; }
+.scale-labels { display: flex; justify-content: space-between; margin-top: 8px; color: var(--mini-muted); font-size: 10px; }
+.details { display: grid; gap: 8px; max-width: 520px; margin: 24px auto 0; }
+.details div { display: flex; justify-content: space-between; gap: 12px; padding: 10px 0; border-bottom: 1px solid var(--mini-line); font-size: 13px; }
+.details div:last-child { border-bottom: 0; }
+.details span { color: var(--mini-muted); }
+.details strong { color: #7dd3fc; }
+@media (max-width: 520px) { .inputs { grid-template-columns: 1fr; } .inputs button { width: 100%; } }

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Image Filters — adjust brightness, contrast, color and blur on any image in your browser.">
+  <title>Image Filters — eskonworks</title>
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/mini.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="mini-app wide">
+    <a class="back-link" href="../index.html">← All projects</a>
+    <header class="app-head">
+      <h1>Image Filters</h1>
+      <p>Load a picture, adjust it live and download the result. Nothing is uploaded.</p>
+    </header>
+
+    <section class="panel">
+      <div class="topbar">
+        <label class="upload">📁 Choose image <input type="file" id="fileInput" accept="image/*" hidden></label>
+        <div class="presets" id="presets">
+          <button type="button" data-preset="none">Original</button>
+          <button type="button" data-preset="vintage">Vintage</button>
+          <button type="button" data-preset="mono">B&amp;W</button>
+          <button type="button" data-preset="cool">Cool</button>
+          <button type="button" data-preset="warm">Warm</button>
+        </div>
+      </div>
+
+      <div class="canvas-wrap"><canvas id="canvas" width="640" height="420" aria-label="Image preview"></canvas></div>
+
+      <div class="sliders" id="sliders"></div>
+      <div class="actions">
+        <button type="button" id="resetBtn">Reset filters</button>
+        <button type="button" id="downloadBtn" class="primary">Download PNG</button>
+      </div>
+      <p class="muted small" id="status">No image loaded — showing a sample canvas. Choose your own image above.</p>
+    </section>
+  </main>
+</body>
+</html>

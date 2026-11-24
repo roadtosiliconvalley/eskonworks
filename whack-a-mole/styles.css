@@ -1,0 +1,18 @@
+.mini-app.narrow { width: min(480px, 100%); }
+body {
+  background:
+    radial-gradient(circle at 14% 0%, rgba(212, 160, 23, .15), transparent 42%),
+    radial-gradient(circle at 86% 10%, rgba(52, 211, 153, .12), transparent 42%),
+    var(--mini-bg);
+}
+.score-board { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-bottom: 18px; }
+.score-board div { display: grid; gap: 2px; padding: 10px; border: 1px solid var(--mini-line); border-radius: 11px; background: var(--mini-panel-2); text-align: center; }
+.score-board span { color: var(--mini-muted); font-size: 10px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+.score-board strong { color: #e3b341; font: 800 24px ui-monospace, monospace; }
+.holes { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+.hole { position: relative; aspect-ratio: 1; border: 2px solid #263653; border-radius: 50%; background: radial-gradient(ellipse at 50% 65%, #1c2b47 0 55%, #0b1427 57%); overflow: hidden; cursor: crosshair; }
+.mole { position: absolute; left: 12%; bottom: -75%; width: 76%; height: 76%; display: grid; place-items: center; border-radius: 50%; background: radial-gradient(circle at 40% 30%, #d4a017, #8a5d0b); font-size: clamp(26px, 7vw, 40px); transition: bottom .12s ease-out; user-select: none; }
+.hole.up .mole { bottom: 8%; }
+.hole.bonk .mole { background: radial-gradient(circle at 40% 30%, #fb7185, #9f1239); }
+.start { width: 100%; margin-top: 18px; padding: 12px; }
+#message { min-height: 18px; margin: 12px 0 0; text-align: center; }

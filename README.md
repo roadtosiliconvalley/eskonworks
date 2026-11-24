@@ -42,6 +42,21 @@ Open `index.html` locally, or visit the GitHub Pages site after enabling it in r
 | 2048 | `2048/` | Slide-and-merge puzzle with keyboard, swipe and saved best score |
 | Palette Studio | `color-palette/` | Color harmonies with locks, hex editing and CSS export |
 | Habit Tracker | `habit-tracker/` | Weekly habit grid with streaks and locally stored progress |
+| Weather Dashboard | `weather-dashboard/` | Five-day sample forecast with hourly bars and unit switching |
+| Countdown | `countdown/` | Live event countdowns with progress bars and local storage |
+| BMI Calculator | `bmi-calculator/` | BMI estimate with category scale and healthy weight range |
+| Morse Code Lab | `morse-code/` | Text/Morse translation with audio playback and reference chart |
+| Sudoku | `sudoku/` | Nine-by-nine puzzle with difficulties, hints and mistake tracking |
+| Whack-a-Mole | `whack-a-mole/` | Thirty-second reflex game with increasing speed |
+| Breakout | `breakout/` | Canvas arcade game with bricks, levels and lives |
+| Cipher Lab | `cipher-lab/` | Caesar, ROT13, Atbash and Base64 text transforms |
+| Typing Test | `typing-test/` | WPM and accuracy measurement across practice passages |
+| Image Filters | `image-filters/` | Canvas image adjustment with presets and PNG download |
+| Simon Says | `simon-says/` | Color sequence memory game with rounds and strict mode |
+| Sticky Notes | `sticky-notes/` | Draggable colored notes with editing, filtering and storage |
+| Drum Machine | `drum-machine/` | Synthesized percussion pads with an eight-step loop recorder |
+| Quote Generator | `quote-generator/` | Quotes by category with favorites and copy support |
+| Northstar Landing Page | `landing-page/` | Sample product page with responsive nav, pricing and FAQ |
 
 Everything is plain **HTML, CSS and JavaScript** — no build step and no runtime dependencies.
 

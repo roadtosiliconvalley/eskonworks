@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="BMI Calculator — body mass index with category scale and healthy weight range.">
+  <title>BMI Calculator — eskonworks</title>
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/mini.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="mini-app">
+    <a class="back-link" href="../index.html">← All projects</a>
+    <header class="app-head">
+      <h1>BMI Calculator</h1>
+      <p>A quick body mass index estimate with a visual category scale.</p>
+    </header>
+
+    <p class="disclaimer">ℹ️ BMI is a rough screening tool, not a medical diagnosis. Talk to a healthcare professional for personal advice.</p>
+
+    <section class="panel">
+      <form id="bmiForm" class="inputs">
+        <div class="field"><label for="height">Height (cm)</label><input type="number" id="height" value="175" min="80" max="250" step="0.5" required></div>
+        <div class="field"><label for="weight">Weight (kg)</label><input type="number" id="weight" value="70" min="20" max="400" step="0.1" required></div>
+        <button type="submit" class="primary">Calculate</button>
+      </form>
+    </section>
+
+    <section class="panel result-panel">
+      <div class="value"><strong id="bmiValue">—</strong><span>BMI</span></div>
+      <div class="category" id="category">Enter your measurements</div>
+      <div class="scale">
+        <div class="scale-bar"><div class="marker" id="marker"></div></div>
+        <div class="scale-labels"><span>Under</span><span>Healthy</span><span>Over</span><span>Obese</span></div>
+      </div>
+      <div class="details" id="details"></div>
+    </section>
+  </main>
+</body>
+</html>

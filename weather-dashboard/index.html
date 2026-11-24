@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Weather Dashboard — a five-day forecast view with sample data generated locally.">
+  <title>Weather Dashboard — eskonworks</title>
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/mini.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="mini-app wide">
+    <a class="back-link" href="../index.html">← All projects</a>
+    <header class="app-head">
+      <h1>Weather Dashboard</h1>
+      <p>Pick a city to see its current conditions and five-day outlook.</p>
+    </header>
+
+    <p class="disclaimer">🌤️ This demo uses simulated sample data generated in your browser — it is not a live weather service.</p>
+
+    <section class="panel controls">
+      <input type="search" id="citySearch" list="cityList" placeholder="Search a city…" aria-label="Search city">
+      <datalist id="cityList"></datalist>
+      <div class="units" id="units">
+        <button type="button" data-unit="C" class="active">°C</button>
+        <button type="button" data-unit="F">°F</button>
+      </div>
+    </section>
+
+    <section class="panel current" id="current"></section>
+
+    <section class="panel">
+      <h2>Five-day outlook</h2>
+      <div class="forecast" id="forecast"></div>
+    </section>
+
+    <section class="panel">
+      <h2>Hourly temperature</h2>
+      <div class="hourly" id="hourly"></div>
+    </section>
+  </main>
+</body>
+</html>

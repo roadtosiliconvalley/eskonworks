@@ -1,0 +1,26 @@
+.mini-app.wide { width: min(860px, 100%); }
+body {
+  background:
+    radial-gradient(circle at 14% 0%, rgba(59, 130, 246, .15), transparent 42%),
+    radial-gradient(circle at 86% 10%, rgba(212, 160, 23, .14), transparent 42%),
+    var(--mini-bg);
+}
+kbd { display: inline-block; padding: 1px 5px; border: 1px solid var(--mini-line); border-radius: 5px; background: var(--mini-panel-2); font: 11px ui-monospace, monospace; }
+.topbar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 18px; }
+.volume { display: flex; align-items: center; gap: 9px; font-size: 12px; color: var(--mini-muted); }
+.volume input { width: 150px; accent-color: #d4a017; }
+.transport { display: flex; flex-wrap: wrap; gap: 7px; }
+.transport button { padding: 8px 12px; font-size: 12px; }
+.transport button.active { background: linear-gradient(135deg, #dc2626, #a9740c); color: #fff; border-color: transparent; }
+.pads { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; }
+.pad { display: grid; place-items: center; gap: 4px; aspect-ratio: 1.1; border: 1px solid var(--mini-line); border-radius: 13px; background: var(--mini-panel-2); color: var(--mini-text); cursor: pointer; }
+.pad:hover { border-color: #60a5fa; }
+.pad.hit { background: linear-gradient(135deg, #1d4ed8, #d4a017); color: #fff; transform: scale(.96); }
+.pad .icon { font-size: 30px; }
+.pad .name { font-size: 11px; font-weight: 800; }
+.pad .key { color: var(--mini-muted); font: 10px ui-monospace, monospace; }
+.steps { display: grid; grid-template-columns: repeat(8, 1fr); gap: 6px; margin-top: 18px; }
+.step { display: grid; place-items: center; height: 38px; border: 1px solid var(--mini-line); border-radius: 8px; background: var(--mini-panel-2); color: var(--mini-muted); font: 10px ui-monospace, monospace; }
+.step.active { border-color: #d4a017; background: rgba(212, 160, 23, .2); color: #e3b341; }
+.step.filled { background: rgba(59, 130, 246, .25); color: #93c5fd; }
+@media (max-width: 560px) { .pads { grid-template-columns: repeat(2, 1fr); } }

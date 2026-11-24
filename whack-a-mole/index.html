@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Whack-a-Mole — a fast 30-second reflex game with increasing speed.">
+  <title>Whack-a-Mole — eskonworks</title>
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/mini.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="mini-app narrow">
+    <a class="back-link" href="../index.html">← All projects</a>
+    <header class="app-head">
+      <h1>Whack-a-Mole</h1>
+      <p>Thirty seconds. Nine holes. Hit the mole before it escapes.</p>
+    </header>
+
+    <section class="panel">
+      <div class="score-board">
+        <div><span>Score</span><strong id="score">0</strong></div>
+        <div><span>Time</span><strong id="time">30</strong></div>
+        <div><span>Misses</span><strong id="misses">0</strong></div>
+      </div>
+      <div class="holes" id="holes"></div>
+      <button type="button" id="startBtn" class="primary start">Start game</button>
+      <p class="muted small" id="message">Press start to begin.</p>
+    </section>
+  </main>
+</body>
+</html>

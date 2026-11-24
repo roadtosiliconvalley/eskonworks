@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Simon Says — repeat increasingly long color sequences in this classic memory game.">
+  <title>Simon Says — eskonworks</title>
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/mini.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="mini-app narrow">
+    <a class="back-link" href="../index.html">← All projects</a>
+    <header class="app-head">
+      <h1>Simon Says</h1>
+      <p>Watch the sequence, then repeat it. Each round adds one more step.</p>
+    </header>
+
+    <section class="panel">
+      <div class="score-board">
+        <div><span>Round</span><strong id="round">0</strong></div>
+        <div><span>Best</span><strong id="best">0</strong></div>
+        <div><span>Progress</span><strong id="progress">0/0</strong></div>
+      </div>
+      <div class="pads" id="pads">
+        <button type="button" class="pad green" data-pad="0" aria-label="Green pad"></button>
+        <button type="button" class="pad red" data-pad="1" aria-label="Red pad"></button>
+        <button type="button" class="pad yellow" data-pad="2" aria-label="Yellow pad"></button>
+        <button type="button" class="pad blue" data-pad="3" aria-label="Blue pad"></button>
+      </div>
+      <div class="actions">
+        <button type="button" id="startBtn" class="primary">Start game</button>
+        <label class="strict"><input type="checkbox" id="strict"> Strict mode</label>
+      </div>
+      <p class="muted small" id="message">Press start to watch the first sequence.</p>
+    </section>
+  </main>
+</body>
+</html>

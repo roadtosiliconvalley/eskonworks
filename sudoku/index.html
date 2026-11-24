@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Sudoku — classic nine-by-nine number puzzle with hints and mistake tracking.">
+  <title>Sudoku — eskonworks</title>
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/mini.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="mini-app">
+    <a class="back-link" href="../index.html">← All projects</a>
+    <header class="app-head">
+      <h1>Sudoku</h1>
+      <p>Fill every row, column and 3×3 box with the digits 1 through 9.</p>
+    </header>
+
+    <section class="panel">
+      <div class="toolbar">
+        <div class="difficulty" id="difficulty">
+          <button type="button" data-level="easy" class="active">Easy</button>
+          <button type="button" data-level="medium">Medium</button>
+          <button type="button" data-level="hard">Hard</button>
+        </div>
+        <button type="button" id="newBtn">New puzzle</button>
+      </div>
+      <div class="status">
+        <span>Time <strong id="timer">00:00</strong></span>
+        <span>Mistakes <strong id="mistakes">0</strong></span>
+        <span id="statusText">Good luck!</span>
+      </div>
+      <div class="board-wrap"><div class="board" id="board" role="grid" aria-label="Sudoku board"></div></div>
+      <div class="numpad" id="numpad"></div>
+      <div class="game-actions">
+        <button type="button" id="eraseBtn">Erase</button>
+        <button type="button" id="hintBtn">💡 Hint</button>
+        <button type="button" id="checkBtn">✓ Check</button>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

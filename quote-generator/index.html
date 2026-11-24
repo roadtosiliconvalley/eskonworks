@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Quote Generator — browse short quotes by mood and save your favorites locally.">
+  <title>Quote Generator — eskonworks</title>
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/mini.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="mini-app">
+    <a class="back-link" href="../index.html">← All projects</a>
+    <header class="app-head">
+      <h1>Quote Generator</h1>
+      <p>A small collection of quotes, sorted by mood, with favorites you can keep.</p>
+    </header>
+
+    <section class="panel quote-panel">
+      <div class="categories" id="categories"></div>
+      <blockquote id="quote">Loading…</blockquote>
+      <p class="author" id="author"></p>
+      <div class="actions">
+        <button type="button" id="newBtn" class="primary">Another quote</button>
+        <button type="button" id="favBtn">♡ Favorite</button>
+        <button type="button" id="copyBtn">Copy</button>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>Saved favorites <span id="favCount" class="count">0</span></h2>
+      <div id="favorites" class="favorites"></div>
+    </section>
+  </main>
+</body>
+</html>

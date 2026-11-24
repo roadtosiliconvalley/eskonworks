@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Morse Code Lab — translate text to Morse code and back, with audio playback.">
+  <title>Morse Code Lab — eskonworks</title>
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/mini.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="mini-app wide">
+    <a class="back-link" href="../index.html">← All projects</a>
+    <header class="app-head">
+      <h1>Morse Code Lab</h1>
+      <p>Translate messages and listen to them as dots and dashes.</p>
+    </header>
+
+    <section class="panel">
+      <div class="mode" id="mode">
+        <button type="button" data-mode="encode" class="active">Text → Morse</button>
+        <button type="button" data-mode="decode">Morse → Text</button>
+      </div>
+      <label class="field" for="source"><span id="sourceLabel">Your message</span></label>
+      <textarea id="source" rows="4" placeholder="Type a message…"></textarea>
+      <div class="actions">
+        <button type="button" id="translateBtn" class="primary">Translate</button>
+        <button type="button" id="playBtn">▶ Play audio</button>
+        <button type="button" id="copyBtn">Copy result</button>
+        <button type="button" id="stopBtn">Stop</button>
+      </div>
+      <label class="field" for="result"><span>Result</span></label>
+      <textarea id="result" rows="4" readonly></textarea>
+      <p class="muted small" id="hint">Letters are separated by a space, words by a slash.</p>
+    </section>
+
+    <section class="panel">
+      <h2>Reference chart</h2>
+      <div class="chart" id="chart"></div>
+    </section>
+  </main>
+</body>
+</html>

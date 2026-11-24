@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Breakout — a canvas arcade classic with bricks, levels and lives.">
+  <title>Breakout — eskonworks</title>
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/mini.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="mini-app narrow">
+    <a class="back-link" href="../index.html">← All projects</a>
+    <header class="app-head">
+      <h1>Breakout</h1>
+      <p>Move the paddle with your mouse or arrow keys. Clear every brick to advance.</p>
+    </header>
+
+    <section class="panel">
+      <div class="hud">
+        <span>Score <strong id="score">0</strong></span>
+        <span>Level <strong id="level">1</strong></span>
+        <span>Lives <strong id="lives">3</strong></span>
+      </div>
+      <div class="canvas-wrap"><canvas id="game" width="480" height="440" aria-label="Breakout game"></canvas></div>
+      <div class="controls">
+        <button type="button" id="startBtn" class="primary">Start game</button>
+        <button type="button" id="pauseBtn" disabled>Pause</button>
+      </div>
+      <p class="muted small" id="message">Press start to launch the ball.</p>
+    </section>
+  </main>
+</body>
+</html>

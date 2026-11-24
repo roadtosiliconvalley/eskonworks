@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Cipher Lab — experiment with Caesar, ROT13, Atbash and Base64 text transforms.">
+  <title>Cipher Lab — eskonworks</title>
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/mini.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="mini-app wide">
+    <a class="back-link" href="../index.html">← All projects</a>
+    <header class="app-head">
+      <h1>Cipher Lab</h1>
+      <p>Four classic text transformations, computed live in your browser.</p>
+    </header>
+
+    <section class="panel">
+      <div class="ciphers" id="ciphers">
+        <button type="button" data-cipher="caesar" class="active">Caesar</button>
+        <button type="button" data-cipher="rot13">ROT13</button>
+        <button type="button" data-cipher="atbash">Atbash</button>
+        <button type="button" data-cipher="base64">Base64</button>
+      </div>
+      <div class="options" id="options">
+        <label for="shift">Shift <strong id="shiftValue">3</strong></label>
+        <input type="range" id="shift" min="1" max="25" value="3">
+      </div>
+      <div class="two-col">
+        <div><label for="input">Input</label><textarea id="input" rows="6" placeholder="Type a message…"></textarea></div>
+        <div><label for="output">Output</label><textarea id="output" rows="6" readonly></textarea></div>
+      </div>
+      <div class="actions">
+        <button type="button" id="swapBtn">⇄ Swap into input</button>
+        <button type="button" id="copyBtn" class="primary">Copy output</button>
+      </div>
+      <p class="muted small" id="note">Caesar shifts each letter by a fixed number. These are learning demos, not secure encryption.</p>
+    </section>
+  </main>
+</body>
+</html>

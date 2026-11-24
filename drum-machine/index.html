@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Drum Machine — synthesize drum sounds and record an eight-step loop.">
+  <title>Drum Machine — eskonworks</title>
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/mini.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="mini-app wide">
+    <a class="back-link" href="../index.html">← All projects</a>
+    <header class="app-head">
+      <h1>Drum Machine</h1>
+      <p>Eight synthesized percussion pads. Record a loop with keys <kbd>1</kbd>–<kbd>8</kbd>.</p>
+    </header>
+
+    <section class="panel">
+      <div class="topbar">
+        <label class="volume">Volume <input type="range" id="volume" min="0" max="100" value="70"></label>
+        <div class="transport">
+          <button type="button" id="recordBtn">● Record</button>
+          <button type="button" id="playBtn">▶ Play loop</button>
+          <button type="button" id="clearBtn">Clear</button>
+        </div>
+      </div>
+      <div class="pads" id="pads"></div>
+      <div class="steps" id="steps"></div>
+      <p class="muted small" id="message">Press Record, tap pads, then press Play to loop your pattern.</p>
+    </section>
+  </main>
+</body>
+</html>

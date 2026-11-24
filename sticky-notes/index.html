@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Sticky Notes — draggable colored notes saved privately in your browser.">
+  <title>Sticky Notes — eskonworks</title>
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/mini.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="mini-app wide">
+    <a class="back-link" href="../index.html">← All projects</a>
+    <header class="app-head">
+      <h1>Sticky Notes</h1>
+      <p>Drop a thought on the board, drag it around, and come back to it later.</p>
+    </header>
+
+    <section class="panel controls">
+      <input type="text" id="noteText" maxlength="160" placeholder="Write a note…" aria-label="Note text">
+      <div class="colors" id="colors">
+        <button type="button" data-color="#fde68a" class="active" style="--swatch:#fde68a" aria-label="Yellow"></button>
+        <button type="button" data-color="#bfdbfe" style="--swatch:#bfdbfe" aria-label="Blue"></button>
+        <button type="button" data-color="#bbf7d0" style="--swatch:#bbf7d0" aria-label="Green"></button>
+        <button type="button" data-color="#fecdd3" style="--swatch:#fecdd3" aria-label="Pink"></button>
+      </div>
+      <button type="button" id="addBtn" class="primary">Add note</button>
+    </section>
+
+    <section class="panel board-panel">
+      <div class="board-head">
+        <span id="count">0 notes</span>
+        <input type="search" id="search" placeholder="Filter notes…" aria-label="Filter notes">
+      </div>
+      <div class="board" id="board"></div>
+      <p class="muted small" id="empty" hidden>The board is empty. Add your first note above.</p>
+      <p class="muted small">Double-click a note to edit it. Notes stay in this browser.</p>
+    </section>
+  </main>
+</body>
+</html>
