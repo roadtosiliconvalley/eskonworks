@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T14:31:00Z",
+  "generated_at": "2026-11-25T13:52:17Z",
   "bot": {
     "status": "online",
     "current_task": "Building: #1 Add a hello world script",
@@ -12,6 +12,12 @@
     "total_commits": 6
   },
   "timeline": [
+    {
+      "time": "2026-11-24T14:31:00Z",
+      "kind": "commit",
+      "title": "chore: refresh site data",
+      "detail": "Commit 43f5aa7"
+    },
     {
       "time": "2026-11-24T07:41:38Z",
       "kind": "commit",
@@ -43,12 +49,6 @@
       "detail": "Commit 87179d9"
     },
     {
-      "time": "2026-11-19T12:29:08Z",
-      "kind": "commit",
-      "title": "chore: refresh site data",
-      "detail": "Commit 37b2848"
-    },
-    {
       "time": "2026-11-17T13:20:05Z",
       "kind": "task",
       "title": "#1 Add a hello world script",
@@ -56,6 +56,12 @@
     }
   ],
   "recent_commits": [
+    {
+      "sha": "43f5aa7",
+      "message": "chore: refresh site data",
+      "url": "https://github.com/roadtosiliconvalley/eskonworks/commit/43f5aa7a7188637940726e4847adc58cfa12187e",
+      "date": "2026-11-24T14:31:00Z"
+    },
     {
       "sha": "c179ca9",
       "message": "feat: add fifteen more mini projects",
@@ -85,12 +91,6 @@
       "message": "chore: refresh site data",
       "url": "https://github.com/roadtosiliconvalley/eskonworks/commit/87179d98de3dbebf8d6d9d7efc2a47c441a9c757",
       "date": "2026-11-20T12:29:31Z"
-    },
-    {
-      "sha": "37b2848",
-      "message": "chore: refresh site data",
-      "url": "https://github.com/roadtosiliconvalley/eskonworks/commit/37b28482a658859fe6082a51ae3c52c276064d01",
-      "date": "2026-11-19T12:29:08Z"
     }
   ],
   "open_issues": [
